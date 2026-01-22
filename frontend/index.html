@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>K-pop Producer Collaboration Network</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- D3 v7 -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+
+<body>
+    <header class="topbar">
+        <h1>K-pop Producer Network</h1>
+        <div class="hint">
+            Drag nodes • Scroll to zoom • Node size = #songs (edges)
+        </div>
+    </header>
+
+    <main>
+        <svg id="chart"></svg>
+        <div id="tooltip" class="tooltip" aria-hidden="true"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
