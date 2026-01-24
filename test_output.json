@@ -1,0 +1,3462 @@
+{
+  "network": {
+    "1014228": {
+      "edges": [
+        {
+          "collaborators": [
+            "1882451",
+            "217593"
+          ],
+          "song_id": 12490744,
+          "song_name": "Hollywood Action"
+        },
+        {
+          "collaborators": [
+            "1882451"
+          ],
+          "song_id": 11234788,
+          "song_name": "오늘만 I LOVE YOU (IF I SAY, I LOVE YOU)"
+        }
+      ],
+      "id": "1014228",
+      "name": "Pop Time",
+      "total_collaborations": 3,
+      "total_songs": 2,
+      "unique_collaborators_count": 2,
+      "url": "https://genius.com/artists/Pop-time"
+    },
+    "1017631": {
+      "edges": [
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420863",
+            "4420862",
+            "30425",
+            "624325",
+            "624322"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "1017631",
+      "name": "아르마딜로 (Armadillo)",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Armadillo"
+    },
+    "1025972": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "1025972",
+      "name": "Johnny Goldstein",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Johnny-goldstein"
+    },
+    "1043444": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "1043444",
+      "name": "Ari PenSmith",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Ari-pensmith"
+    },
+    "1044557": {
+      "edges": [
+        {
+          "collaborators": [
+            "4004203",
+            "30425",
+            "1325287"
+          ],
+          "song_id": 11932605,
+          "song_name": "Killin’ It Girl"
+        }
+      ],
+      "id": "1044557",
+      "name": "inverness",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Inverness"
+    },
+    "1083559": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "4648042",
+            "2403589",
+            "624325",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "1083559",
+      "name": "Federico Vindver",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Federico-vindver"
+    },
+    "1108806": {
+      "edges": [
+        {
+          "collaborators": [
+            "29978",
+            "139042",
+            "627390"
+          ],
+          "song_id": 11496633,
+          "song_name": "Seoul City"
+        }
+      ],
+      "id": "1108806",
+      "name": "Myles Harris",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Myles-harris"
+    },
+    "1145936": {
+      "edges": [
+        {
+          "collaborators": [
+            "196022"
+          ],
+          "song_id": 11871992,
+          "song_name": "TAKEDOWN"
+        }
+      ],
+      "id": "1145936",
+      "name": "Ian Eisendrath",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Ian-eisendrath"
+    },
+    "1180863": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "4648042",
+            "2403589",
+            "624325",
+            "1083559",
+            "546838"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "1180863",
+      "name": "Tobias Wincorn",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Tobias-wincorn"
+    },
+    "12908": {
+      "edges": [
+        {
+          "collaborators": [
+            "1594252",
+            "29925",
+            "6162"
+          ],
+          "song_id": 12081395,
+          "song_name": "뛰어 (JUMP)"
+        },
+        {
+          "collaborators": [
+            "647831",
+            "3459163",
+            "1409467"
+          ],
+          "song_id": 11496569,
+          "song_name": "like JENNIE"
+        }
+      ],
+      "id": "12908",
+      "name": "Diplo",
+      "total_collaborations": 6,
+      "total_songs": 2,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Diplo"
+    },
+    "1325287": {
+      "edges": [
+        {
+          "collaborators": [
+            "4004203",
+            "30425",
+            "1044557"
+          ],
+          "song_id": 11932605,
+          "song_name": "Killin’ It Girl"
+        },
+        {
+          "collaborators": [
+            "49698",
+            "229234"
+          ],
+          "song_id": 11594030,
+          "song_name": "MONA LISA"
+        }
+      ],
+      "id": "1325287",
+      "name": "Blake Slatkin",
+      "total_collaborations": 5,
+      "total_songs": 2,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/Blake-slatkin"
+    },
+    "137084": {
+      "edges": [
+        {
+          "collaborators": [
+            "137085"
+          ],
+          "song_id": 907111,
+          "song_name": "One Touch"
+        }
+      ],
+      "id": "137084",
+      "name": "Brian Higgins",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Brian-higgins"
+    },
+    "137085": {
+      "edges": [
+        {
+          "collaborators": [
+            "137084"
+          ],
+          "song_id": 907111,
+          "song_name": "One Touch"
+        }
+      ],
+      "id": "137085",
+      "name": "Xenomania",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Xenomania"
+    },
+    "139042": {
+      "edges": [
+        {
+          "collaborators": [
+            "29978",
+            "1108806",
+            "627390"
+          ],
+          "song_id": 11496633,
+          "song_name": "Seoul City"
+        }
+      ],
+      "id": "139042",
+      "name": "Resource",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Resource"
+    },
+    "1409467": {
+      "edges": [
+        {
+          "collaborators": [
+            "647831",
+            "12908",
+            "3459163"
+          ],
+          "song_id": 11496569,
+          "song_name": "like JENNIE"
+        }
+      ],
+      "id": "1409467",
+      "name": "Jaxxtone",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Jaxxtone"
+    },
+    "1502045": {
+      "edges": [
+        {
+          "collaborators": [
+            "4683221",
+            "4683222",
+            "4683223"
+          ],
+          "song_id": 12608372,
+          "song_name": "NOT CUTE ANYMORE"
+        }
+      ],
+      "id": "1502045",
+      "name": "Jasper Harris",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Jasper-harris"
+    },
+    "152194": {
+      "edges": [
+        {
+          "collaborators": [
+            "276",
+            "17491",
+            "64761",
+            "166093"
+          ],
+          "song_id": 599473,
+          "song_name": "Rebel Heart"
+        }
+      ],
+      "id": "152194",
+      "name": "Magnus Lidehäll",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Magnus-lidehall"
+    },
+    "1528176": {
+      "edges": [
+        {
+          "collaborators": [
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "1528176",
+      "name": "Camille Yorrick",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Camille-yorrick"
+    },
+    "1569669": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "1569669",
+      "name": "Sammy Soso",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Sammy-soso"
+    },
+    "1594252": {
+      "edges": [
+        {
+          "collaborators": [
+            "12908",
+            "29925",
+            "6162"
+          ],
+          "song_id": 12081395,
+          "song_name": "뛰어 (JUMP)"
+        }
+      ],
+      "id": "1594252",
+      "name": "ZECCA",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Zecca"
+    },
+    "166093": {
+      "edges": [
+        {
+          "collaborators": [
+            "276",
+            "17491",
+            "64761",
+            "152194"
+          ],
+          "song_id": 599473,
+          "song_name": "Rebel Heart"
+        }
+      ],
+      "id": "166093",
+      "name": "Vincent Pontare",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Vincent-pontare"
+    },
+    "1739638": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "1739638",
+      "name": "Nathan Fertig",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Nathan-fertig"
+    },
+    "17491": {
+      "edges": [
+        {
+          "collaborators": [
+            "276",
+            "64761",
+            "152194",
+            "166093"
+          ],
+          "song_id": 599473,
+          "song_name": "Rebel Heart"
+        }
+      ],
+      "id": "17491",
+      "name": "Avicii",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Avicii"
+    },
+    "1858382": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "1858382",
+      "name": "Zeus Zamani",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Zeus-zamani"
+    },
+    "1882451": {
+      "edges": [
+        {
+          "collaborators": [
+            "1014228",
+            "217593"
+          ],
+          "song_id": 12490744,
+          "song_name": "Hollywood Action"
+        },
+        {
+          "collaborators": [
+            "1014228"
+          ],
+          "song_id": 11234788,
+          "song_name": "오늘만 I LOVE YOU (IF I SAY, I LOVE YOU)"
+        }
+      ],
+      "id": "1882451",
+      "name": "Kako (KOR)",
+      "total_collaborations": 3,
+      "total_songs": 2,
+      "unique_collaborators_count": 2,
+      "url": "https://genius.com/artists/Kako-kor"
+    },
+    "196022": {
+      "edges": [
+        {
+          "collaborators": [
+            "1145936"
+          ],
+          "song_id": 11871992,
+          "song_name": "TAKEDOWN"
+        }
+      ],
+      "id": "196022",
+      "name": "Michel “Lindgren” Schulz",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Michel-lindgren-schulz"
+    },
+    "1983462": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "1983462",
+      "name": "Ovidio Jimenez",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Ovidio-jimenez"
+    },
+    "2006945": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "2006945",
+      "name": "Wyatt Sanders",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Wyatt-sanders"
+    },
+    "2064558": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "2064558",
+      "name": "Oscar Cornejo",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Oscar-cornejo"
+    },
+    "2102252": {
+      "edges": [
+        {
+          "collaborators": [
+            "3325235"
+          ],
+          "song_id": 11794750,
+          "song_name": "Fly Up"
+        }
+      ],
+      "id": "2102252",
+      "name": "Stian Nyhammer Olsen",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Stian-nyhammer-olsen"
+    },
+    "217593": {
+      "edges": [
+        {
+          "collaborators": [
+            "1014228",
+            "1882451"
+          ],
+          "song_id": 12490744,
+          "song_name": "Hollywood Action"
+        }
+      ],
+      "id": "217593",
+      "name": "ZICO",
+      "total_collaborations": 2,
+      "total_songs": 1,
+      "unique_collaborators_count": 2,
+      "url": "https://genius.com/artists/Zico"
+    },
+    "229234": {
+      "edges": [
+        {
+          "collaborators": [
+            "1325287",
+            "49698"
+          ],
+          "song_id": 11594030,
+          "song_name": "MONA LISA"
+        }
+      ],
+      "id": "229234",
+      "name": "MISOGI",
+      "total_collaborations": 2,
+      "total_songs": 1,
+      "unique_collaborators_count": 2,
+      "url": "https://genius.com/artists/Misogi"
+    },
+    "2403589": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "4648042",
+            "624325",
+            "1083559",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        },
+        {
+          "collaborators": [
+            "4387074",
+            "4387072",
+            "2623594"
+          ],
+          "song_id": 11487113,
+          "song_name": "HOT"
+        }
+      ],
+      "id": "2403589",
+      "name": "13 (KOR)",
+      "total_collaborations": 10,
+      "total_songs": 2,
+      "unique_collaborators_count": 10,
+      "url": "https://genius.com/artists/13-kor"
+    },
+    "2483850": {
+      "edges": [
+        {
+          "collaborators": [
+            "2934609"
+          ],
+          "song_id": 6187132,
+          "song_name": "1024"
+        }
+      ],
+      "id": "2483850",
+      "name": "Derivakat",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Derivakat"
+    },
+    "2623594": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387074",
+            "4387072",
+            "2403589"
+          ],
+          "song_id": 11487113,
+          "song_name": "HOT"
+        }
+      ],
+      "id": "2623594",
+      "name": "Jackson Shanks",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Jackson-shanks"
+    },
+    "276": {
+      "edges": [
+        {
+          "collaborators": [
+            "17491",
+            "64761",
+            "152194",
+            "166093"
+          ],
+          "song_id": 599473,
+          "song_name": "Rebel Heart"
+        }
+      ],
+      "id": "276",
+      "name": "Madonna",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Madonna"
+    },
+    "2792461": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "2792461",
+      "name": "Yamel Thompson",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Yamel-thompson"
+    },
+    "2799857": {
+      "edges": [
+        {
+          "collaborators": [
+            "3910042"
+          ],
+          "song_id": 11894571,
+          "song_name": "Icarus"
+        }
+      ],
+      "id": "2799857",
+      "name": "Yu Yena (DIGIPEDI)",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Yu-yena-digipedi"
+    },
+    "2934609": {
+      "edges": [
+        {
+          "collaborators": [
+            "2483850"
+          ],
+          "song_id": 6187132,
+          "song_name": "1024"
+        }
+      ],
+      "id": "2934609",
+      "name": "Dara (Producer)",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Dara-producer"
+    },
+    "2947261": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "2947261",
+      "name": "Alex Teh",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Alex-teh"
+    },
+    "29925": {
+      "edges": [
+        {
+          "collaborators": [
+            "1594252",
+            "12908",
+            "6162"
+          ],
+          "song_id": 12081395,
+          "song_name": "뛰어 (JUMP)"
+        }
+      ],
+      "id": "29925",
+      "name": "Boaz van de Beatz",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Boaz-van-de-beatz"
+    },
+    "29978": {
+      "edges": [
+        {
+          "collaborators": [
+            "139042",
+            "1108806",
+            "627390"
+          ],
+          "song_id": 11496633,
+          "song_name": "Seoul City"
+        }
+      ],
+      "id": "29978",
+      "name": "Mike WiLL Made-It",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Mike-will-made-it"
+    },
+    "30425": {
+      "edges": [
+        {
+          "collaborators": [
+            "4004203",
+            "1325287",
+            "1044557"
+          ],
+          "song_id": 11932605,
+          "song_name": "Killin’ It Girl"
+        },
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420863",
+            "4420862",
+            "624325",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "30425",
+      "name": "Cirkut",
+      "total_collaborations": 10,
+      "total_songs": 2,
+      "unique_collaborators_count": 10,
+      "url": "https://genius.com/artists/Cirkut"
+    },
+    "3117916": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "3117916",
+      "name": "김지영 (Kim Ji Young)",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Kim-ji-young"
+    },
+    "3237434": {
+      "edges": [
+        {
+          "collaborators": [
+            "4466138",
+            "4420863",
+            "4420862",
+            "30425",
+            "624325",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "3237434",
+      "name": "Yeonjin Kim (OUI PRODUCTION)",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Yeonjin-kim-oui-production"
+    },
+    "3317229": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "3317229",
+      "name": "Mocha Bands",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Mocha-bands"
+    },
+    "3325235": {
+      "edges": [
+        {
+          "collaborators": [
+            "2102252"
+          ],
+          "song_id": 11794750,
+          "song_name": "Fly Up"
+        }
+      ],
+      "id": "3325235",
+      "name": "JOP (NOR)",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Jop-nor"
+    },
+    "33782": {
+      "edges": [
+        {
+          "collaborators": [
+            "45"
+          ],
+          "song_id": 10630180,
+          "song_name": "Bad One"
+        },
+        {
+          "collaborators": [
+            "45"
+          ],
+          "song_id": 5180451,
+          "song_name": "I Will"
+        }
+      ],
+      "id": "33782",
+      "name": "Luis Resto",
+      "total_collaborations": 2,
+      "total_songs": 2,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Luis-resto"
+    },
+    "3380494": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418914",
+            "4418901",
+            "4418913",
+            "4418902",
+            "624322"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        }
+      ],
+      "id": "3380494",
+      "name": "The Elements",
+      "total_collaborations": 5,
+      "total_songs": 1,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/The-elements"
+    },
+    "3459163": {
+      "edges": [
+        {
+          "collaborators": [
+            "647831",
+            "12908",
+            "1409467"
+          ],
+          "song_id": 11496569,
+          "song_name": "like JENNIE"
+        }
+      ],
+      "id": "3459163",
+      "name": "LeClair",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Leclair"
+    },
+    "3506869": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "3506869",
+      "name": "Believve",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Believve"
+    },
+    "3692776": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4165271",
+            "4435300",
+            "4435301",
+            "4672459",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "3692776",
+      "name": "Kim Yuri (김유리)",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Kim-yuri"
+    },
+    "3870221": {
+      "edges": [
+        {
+          "collaborators": [
+            "4420863",
+            "4466138",
+            "624322",
+            "624325"
+          ],
+          "song_id": 12081351,
+          "song_name": "Beautiful Strangers"
+        }
+      ],
+      "id": "3870221",
+      "name": "MARTIN (CORTIS)",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Martin-cortis"
+    },
+    "3910042": {
+      "edges": [
+        {
+          "collaborators": [
+            "2799857"
+          ],
+          "song_id": 11894571,
+          "song_name": "Icarus"
+        }
+      ],
+      "id": "3910042",
+      "name": "yeon",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Yeon"
+    },
+    "39585": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "4438329",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "39585",
+      "name": "Kuk Harrell",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Kuk-harrell"
+    },
+    "3967420": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "3967420",
+      "name": "Ran Ro (Lumpens)",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Ran-ro-lumpens"
+    },
+    "4004203": {
+      "edges": [
+        {
+          "collaborators": [
+            "30425",
+            "1325287",
+            "1044557"
+          ],
+          "song_id": 11932605,
+          "song_name": "Killin’ It Girl"
+        }
+      ],
+      "id": "4004203",
+      "name": "Church Edit",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Church-edit"
+    },
+    "4061195": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4061195",
+      "name": "Benjamin Kim",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Benjamin-kim"
+    },
+    "4165271": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4435300",
+            "3692776",
+            "4435301",
+            "4672459",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4165271",
+      "name": "Taekhyeon Lim",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Taekhyeon-lim"
+    },
+    "4283408": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4283408",
+      "name": "Raymond Kissel",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Raymond-kissel"
+    },
+    "4349197": {
+      "edges": [
+        {
+          "collaborators": [
+            "4648043",
+            "4648042",
+            "2403589",
+            "624325",
+            "1083559",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "4349197",
+      "name": "Moon Dan",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Moon-dan"
+    },
+    "4361564": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "2792461",
+            "4438329",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "4361564",
+      "name": "Jami Taylor Arceo",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Jami-taylor-arceo"
+    },
+    "4387065": {
+      "edges": [
+        {
+          "collaborators": [
+            "4165271",
+            "4435300",
+            "3692776",
+            "4435301",
+            "4672459",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4387065",
+      "name": "Wonsung Yoon",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Wonsung-yoon"
+    },
+    "4387072": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387074",
+            "2403589",
+            "2623594"
+          ],
+          "song_id": 11487113,
+          "song_name": "HOT"
+        }
+      ],
+      "id": "4387072",
+      "name": "Chanyoung Park (Line Producer)",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Chanyoung-park-line-producer"
+    },
+    "4387074": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387072",
+            "2403589",
+            "2623594"
+          ],
+          "song_id": 11487113,
+          "song_name": "HOT"
+        }
+      ],
+      "id": "4387074",
+      "name": "Joohun Kim (liminal)",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Joohun-kim-liminal"
+    },
+    "4418901": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418914",
+            "4418913",
+            "4418902",
+            "624322",
+            "3380494"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        }
+      ],
+      "id": "4418901",
+      "name": "Alejandro Lopez (Video Producer)",
+      "total_collaborations": 5,
+      "total_songs": 1,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/Alejandro-lopez-video-producer"
+    },
+    "4418902": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418914",
+            "4418901",
+            "4418913",
+            "624322",
+            "3380494"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        }
+      ],
+      "id": "4418902",
+      "name": "Robert Lopez (Executive Producer)",
+      "total_collaborations": 5,
+      "total_songs": 1,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/Robert-lopez-executive-producer"
+    },
+    "4418913": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418914",
+            "4418901",
+            "4418902",
+            "624322",
+            "3380494"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        }
+      ],
+      "id": "4418913",
+      "name": "Lee Sub (TOMMY)",
+      "total_collaborations": 5,
+      "total_songs": 1,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/Lee-sub-tommy"
+    },
+    "4418914": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418901",
+            "4418913",
+            "4418902",
+            "624322",
+            "3380494"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        }
+      ],
+      "id": "4418914",
+      "name": "Somang Gwak",
+      "total_collaborations": 5,
+      "total_songs": 1,
+      "unique_collaborators_count": 5,
+      "url": "https://genius.com/artists/Somang-gwak"
+    },
+    "4420862": {
+      "edges": [
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420863",
+            "30425",
+            "624325",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "4420862",
+      "name": "Donghyun Jeong",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Donghyun-jeong"
+    },
+    "4420863": {
+      "edges": [
+        {
+          "collaborators": [
+            "4466138",
+            "624322",
+            "624325",
+            "3870221"
+          ],
+          "song_id": 12081351,
+          "song_name": "Beautiful Strangers"
+        },
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420862",
+            "30425",
+            "624325",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "4420863",
+      "name": "Seungwon Lee",
+      "total_collaborations": 11,
+      "total_songs": 2,
+      "unique_collaborators_count": 8,
+      "url": "https://genius.com/artists/Seungwon-lee"
+    },
+    "4435299": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4165271",
+            "4435300",
+            "3692776",
+            "4435301",
+            "4672459"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4435299",
+      "name": "Kim Namsuk",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Kim-namsuk"
+    },
+    "4435300": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4165271",
+            "3692776",
+            "4435301",
+            "4672459",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4435300",
+      "name": "Kim Yongbae",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Kim-yongbae"
+    },
+    "4435301": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4165271",
+            "4435300",
+            "3692776",
+            "4672459",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4435301",
+      "name": "Chung Sung",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Chung-sung"
+    },
+    "4438329": {
+      "edges": [
+        {
+          "collaborators": [
+            "1528176",
+            "4361564",
+            "2792461",
+            "39585",
+            "2064558",
+            "1043444",
+            "3317229",
+            "3506869",
+            "1569669"
+          ],
+          "song_id": 11037277,
+          "song_name": "When I’m With You"
+        }
+      ],
+      "id": "4438329",
+      "name": "Veronica Leon",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Veronica-leon"
+    },
+    "4439516": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439516",
+      "name": "Nur Syafiqah Mustakim",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Nur-syafiqah-mustakim"
+    },
+    "4439517": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439517",
+      "name": "Joanna Ying Ng",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Joanna-ying-ng"
+    },
+    "4439518": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439518",
+      "name": "Tasha Budiman",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Tasha-budiman"
+    },
+    "4439519": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439520",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439519",
+      "name": "Charlene Yiu",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Charlene-yiu"
+    },
+    "4439520": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439521",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439520",
+      "name": "Shandelyn Ang",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Shandelyn-ang"
+    },
+    "4439521": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439522",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439521",
+      "name": "Seet Yan Shan",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Seet-yan-shan"
+    },
+    "4439522": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439523",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439522",
+      "name": "Aron B Castro",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Aron-b-castro"
+    },
+    "4439523": {
+      "edges": [
+        {
+          "collaborators": [
+            "4439517",
+            "4439518",
+            "4439519",
+            "4439520",
+            "4439521",
+            "4439522",
+            "3967420",
+            "2947261",
+            "4439516",
+            "2006945",
+            "1739638"
+          ],
+          "song_id": 11739529,
+          "song_name": "Don’t Say You Love Me"
+        }
+      ],
+      "id": "4439523",
+      "name": "Hummingbird (Video Producer)",
+      "total_collaborations": 11,
+      "total_songs": 1,
+      "unique_collaborators_count": 11,
+      "url": "https://genius.com/artists/Hummingbird-video-producer"
+    },
+    "4466138": {
+      "edges": [
+        {
+          "collaborators": [
+            "4420863",
+            "624322",
+            "624325",
+            "3870221"
+          ],
+          "song_id": 12081351,
+          "song_name": "Beautiful Strangers"
+        },
+        {
+          "collaborators": [
+            "3237434",
+            "4420863",
+            "4420862",
+            "30425",
+            "624325",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "4466138",
+      "name": "Sebong Oh",
+      "total_collaborations": 11,
+      "total_songs": 2,
+      "unique_collaborators_count": 8,
+      "url": "https://genius.com/artists/Sebong-oh"
+    },
+    "45": {
+      "edges": [
+        {
+          "collaborators": [
+            "33782"
+          ],
+          "song_id": 10630180,
+          "song_name": "Bad One"
+        },
+        {
+          "collaborators": [
+            "33782"
+          ],
+          "song_id": 5180451,
+          "song_name": "I Will"
+        }
+      ],
+      "id": "45",
+      "name": "Eminem",
+      "total_collaborations": 2,
+      "total_songs": 2,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Eminem"
+    },
+    "4540282": {
+      "edges": [
+        {
+          "collaborators": [
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4540282",
+      "name": "Minju Kim",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Minju-kim"
+    },
+    "4549662": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4549662",
+      "name": "KB Lee",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Kb-lee"
+    },
+    "4549663": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549662",
+            "4061195",
+            "1858382",
+            "4559908",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4549663",
+      "name": "Minkyu Kang",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Minkyu-kang"
+    },
+    "4559908": {
+      "edges": [
+        {
+          "collaborators": [
+            "4540282",
+            "1983462",
+            "3117916",
+            "4283408",
+            "4549663",
+            "4549662",
+            "4061195",
+            "1858382",
+            "1025972"
+          ],
+          "song_id": 12250228,
+          "song_name": "GO!"
+        }
+      ],
+      "id": "4559908",
+      "name": "Seungseok Lee",
+      "total_collaborations": 9,
+      "total_songs": 1,
+      "unique_collaborators_count": 9,
+      "url": "https://genius.com/artists/Seungseok-lee"
+    },
+    "4648042": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "2403589",
+            "624325",
+            "1083559",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "4648042",
+      "name": "Seulgi Yi",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Seulgi-yi"
+    },
+    "4648043": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648042",
+            "2403589",
+            "624325",
+            "1083559",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "4648043",
+      "name": "Rakk Voram Jang",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Rakk-voram-jang"
+    },
+    "4672459": {
+      "edges": [
+        {
+          "collaborators": [
+            "4387065",
+            "4165271",
+            "4435300",
+            "3692776",
+            "4435301",
+            "4435299"
+          ],
+          "song_id": 11836007,
+          "song_name": "종말의 사과나무 (Apocalypse)"
+        }
+      ],
+      "id": "4672459",
+      "name": "KIm Taeyeon (Video Producer)",
+      "total_collaborations": 6,
+      "total_songs": 1,
+      "unique_collaborators_count": 6,
+      "url": "https://genius.com/artists/Kim-taeyeon-video-producer"
+    },
+    "4681293": {
+      "edges": [
+        {
+          "collaborators": [
+            "4681337"
+          ],
+          "song_id": 12639155,
+          "song_name": "Fame"
+        }
+      ],
+      "id": "4681293",
+      "name": "Yoojeong Ko",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Yoojeong-ko"
+    },
+    "4681337": {
+      "edges": [
+        {
+          "collaborators": [
+            "4681293"
+          ],
+          "song_id": 12639155,
+          "song_name": "Fame"
+        }
+      ],
+      "id": "4681337",
+      "name": "ASSIST (Line Producer)",
+      "total_collaborations": 1,
+      "total_songs": 1,
+      "unique_collaborators_count": 1,
+      "url": "https://genius.com/artists/Assist-line-producer"
+    },
+    "4683221": {
+      "edges": [
+        {
+          "collaborators": [
+            "4683222",
+            "4683223",
+            "1502045"
+          ],
+          "song_id": 12608372,
+          "song_name": "NOT CUTE ANYMORE"
+        }
+      ],
+      "id": "4683221",
+      "name": "Gawon Lee (VP)",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Gawon-lee-vp"
+    },
+    "4683222": {
+      "edges": [
+        {
+          "collaborators": [
+            "4683221",
+            "4683223",
+            "1502045"
+          ],
+          "song_id": 12608372,
+          "song_name": "NOT CUTE ANYMORE"
+        }
+      ],
+      "id": "4683222",
+      "name": "Kikuchi Rio",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Kikuchi-rio"
+    },
+    "4683223": {
+      "edges": [
+        {
+          "collaborators": [
+            "4683221",
+            "4683222",
+            "1502045"
+          ],
+          "song_id": 12608372,
+          "song_name": "NOT CUTE ANYMORE"
+        }
+      ],
+      "id": "4683223",
+      "name": "Dongeun Shin",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Dongeun-shin"
+    },
+    "49698": {
+      "edges": [
+        {
+          "collaborators": [
+            "1325287",
+            "229234"
+          ],
+          "song_id": 11594030,
+          "song_name": "MONA LISA"
+        }
+      ],
+      "id": "49698",
+      "name": "Cashmere Cat",
+      "total_collaborations": 2,
+      "total_songs": 1,
+      "unique_collaborators_count": 2,
+      "url": "https://genius.com/artists/Cashmere-cat"
+    },
+    "546838": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "4648042",
+            "2403589",
+            "624325",
+            "1083559",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        }
+      ],
+      "id": "546838",
+      "name": "Gian Stone",
+      "total_collaborations": 7,
+      "total_songs": 1,
+      "unique_collaborators_count": 7,
+      "url": "https://genius.com/artists/Gian-stone"
+    },
+    "6162": {
+      "edges": [
+        {
+          "collaborators": [
+            "1594252",
+            "12908",
+            "29925"
+          ],
+          "song_id": 12081395,
+          "song_name": "뛰어 (JUMP)"
+        }
+      ],
+      "id": "6162",
+      "name": "24",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/24"
+    },
+    "624322": {
+      "edges": [
+        {
+          "collaborators": [
+            "4418914",
+            "4418901",
+            "4418913",
+            "4418902",
+            "3380494"
+          ],
+          "song_id": 11696456,
+          "song_name": "Love Language"
+        },
+        {
+          "collaborators": [
+            "4420863",
+            "4466138",
+            "624325",
+            "3870221"
+          ],
+          "song_id": 12081351,
+          "song_name": "Beautiful Strangers"
+        },
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420863",
+            "4420862",
+            "30425",
+            "624325",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "624322",
+      "name": "Slow Rabbit",
+      "total_collaborations": 16,
+      "total_songs": 3,
+      "unique_collaborators_count": 13,
+      "url": "https://genius.com/artists/Slow-rabbit"
+    },
+    "624325": {
+      "edges": [
+        {
+          "collaborators": [
+            "4349197",
+            "4648043",
+            "4648042",
+            "2403589",
+            "1083559",
+            "546838",
+            "1180863"
+          ],
+          "song_id": 12479870,
+          "song_name": "SPAGHETTI"
+        },
+        {
+          "collaborators": [
+            "4420863",
+            "4466138",
+            "624322",
+            "3870221"
+          ],
+          "song_id": 12081351,
+          "song_name": "Beautiful Strangers"
+        },
+        {
+          "collaborators": [
+            "3237434",
+            "4466138",
+            "4420863",
+            "4420862",
+            "30425",
+            "624322",
+            "1017631"
+          ],
+          "song_id": 11899290,
+          "song_name": "Bad Desire (With or Without You)"
+        }
+      ],
+      "id": "624325",
+      "name": "“hitman” Bang",
+      "total_collaborations": 18,
+      "total_songs": 3,
+      "unique_collaborators_count": 15,
+      "url": "https://genius.com/artists/Hitman-bang"
+    },
+    "627390": {
+      "edges": [
+        {
+          "collaborators": [
+            "29978",
+            "139042",
+            "1108806"
+          ],
+          "song_id": 11496633,
+          "song_name": "Seoul City"
+        }
+      ],
+      "id": "627390",
+      "name": "Xeryus",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Xeryus"
+    },
+    "64761": {
+      "edges": [
+        {
+          "collaborators": [
+            "276",
+            "17491",
+            "152194",
+            "166093"
+          ],
+          "song_id": 599473,
+          "song_name": "Rebel Heart"
+        }
+      ],
+      "id": "64761",
+      "name": "Salem Al Fakir",
+      "total_collaborations": 4,
+      "total_songs": 1,
+      "unique_collaborators_count": 4,
+      "url": "https://genius.com/artists/Salem-al-fakir"
+    },
+    "647831": {
+      "edges": [
+        {
+          "collaborators": [
+            "12908",
+            "3459163",
+            "1409467"
+          ],
+          "song_id": 11496569,
+          "song_name": "like JENNIE"
+        }
+      ],
+      "id": "647831",
+      "name": "Chris “TEK” O’Ryan",
+      "total_collaborations": 3,
+      "total_songs": 1,
+      "unique_collaborators_count": 3,
+      "url": "https://genius.com/artists/Chris-tek-oryan"
+    }
+  },
+  "songs": [
+    {
+      "artist": "Raste",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "2486771",
+          "name": "DAMARV",
+          "url": "https://genius.com/artists/Damarv"
+        }
+      ],
+      "song_id": 10837826,
+      "song_name": "Chaos"
+    },
+    {
+      "artist": "BLACKPINK",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "1594252",
+          "name": "ZECCA",
+          "url": "https://genius.com/artists/Zecca"
+        },
+        {
+          "id": "12908",
+          "name": "Diplo",
+          "url": "https://genius.com/artists/Diplo"
+        },
+        {
+          "id": "29925",
+          "name": "Boaz van de Beatz",
+          "url": "https://genius.com/artists/Boaz-van-de-beatz"
+        },
+        {
+          "id": "6162",
+          "name": "24",
+          "url": "https://genius.com/artists/24"
+        }
+      ],
+      "song_id": 12081395,
+      "song_name": "뛰어 (JUMP)"
+    },
+    {
+      "artist": "LE SSERAFIM",
+      "producer_count": 8,
+      "producers": [
+        {
+          "id": "4349197",
+          "name": "Moon Dan",
+          "url": "https://genius.com/artists/Moon-dan"
+        },
+        {
+          "id": "4648043",
+          "name": "Rakk Voram Jang",
+          "url": "https://genius.com/artists/Rakk-voram-jang"
+        },
+        {
+          "id": "4648042",
+          "name": "Seulgi Yi",
+          "url": "https://genius.com/artists/Seulgi-yi"
+        },
+        {
+          "id": "2403589",
+          "name": "13 (KOR)",
+          "url": "https://genius.com/artists/13-kor"
+        },
+        {
+          "id": "624325",
+          "name": "“hitman” Bang",
+          "url": "https://genius.com/artists/Hitman-bang"
+        },
+        {
+          "id": "1083559",
+          "name": "Federico Vindver",
+          "url": "https://genius.com/artists/Federico-vindver"
+        },
+        {
+          "id": "546838",
+          "name": "Gian Stone",
+          "url": "https://genius.com/artists/Gian-stone"
+        },
+        {
+          "id": "1180863",
+          "name": "Tobias Wincorn",
+          "url": "https://genius.com/artists/Tobias-wincorn"
+        }
+      ],
+      "song_id": 12479870,
+      "song_name": "SPAGHETTI"
+    },
+    {
+      "artist": "Stray Kids",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12574307,
+      "song_name": "Do It"
+    },
+    {
+      "artist": "Antonio Aaron",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "301",
+          "name": "DJ Drama",
+          "url": "https://genius.com/artists/Dj-drama"
+        }
+      ],
+      "song_id": 182621,
+      "song_name": "Monster"
+    },
+    {
+      "artist": "JENNIE",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "647831",
+          "name": "Chris “TEK” O’Ryan",
+          "url": "https://genius.com/artists/Chris-tek-oryan"
+        },
+        {
+          "id": "12908",
+          "name": "Diplo",
+          "url": "https://genius.com/artists/Diplo"
+        },
+        {
+          "id": "3459163",
+          "name": "LeClair",
+          "url": "https://genius.com/artists/Leclair"
+        },
+        {
+          "id": "1409467",
+          "name": "Jaxxtone",
+          "url": "https://genius.com/artists/Jaxxtone"
+        }
+      ],
+      "song_id": 11496569,
+      "song_name": "like JENNIE"
+    },
+    {
+      "artist": "ILLIT (아일릿)",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "4683221",
+          "name": "Gawon Lee (VP)",
+          "url": "https://genius.com/artists/Gawon-lee-vp"
+        },
+        {
+          "id": "4683222",
+          "name": "Kikuchi Rio",
+          "url": "https://genius.com/artists/Kikuchi-rio"
+        },
+        {
+          "id": "4683223",
+          "name": "Dongeun Shin",
+          "url": "https://genius.com/artists/Dongeun-shin"
+        },
+        {
+          "id": "1502045",
+          "name": "Jasper Harris",
+          "url": "https://genius.com/artists/Jasper-harris"
+        }
+      ],
+      "song_id": 12608372,
+      "song_name": "NOT CUTE ANYMORE"
+    },
+    {
+      "artist": "TWICE",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12059313,
+      "song_name": "THIS IS FOR"
+    },
+    {
+      "artist": "Stray Kids",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12210345,
+      "song_name": "CEREMONY"
+    },
+    {
+      "artist": "Pink Trash Project",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "2963074",
+          "name": "YNISH",
+          "url": "https://genius.com/artists/Ynish"
+        }
+      ],
+      "song_id": 12409308,
+      "song_name": "FOREVER WITH (Super Junior)"
+    },
+    {
+      "artist": "j-hope",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "4004203",
+          "name": "Church Edit",
+          "url": "https://genius.com/artists/Church-edit"
+        },
+        {
+          "id": "30425",
+          "name": "Cirkut",
+          "url": "https://genius.com/artists/Cirkut"
+        },
+        {
+          "id": "1325287",
+          "name": "Blake Slatkin",
+          "url": "https://genius.com/artists/Blake-slatkin"
+        },
+        {
+          "id": "1044557",
+          "name": "inverness",
+          "url": "https://genius.com/artists/Inverness"
+        }
+      ],
+      "song_id": 11932605,
+      "song_name": "Killin’ It Girl"
+    },
+    {
+      "artist": "j-hope",
+      "producer_count": 3,
+      "producers": [
+        {
+          "id": "1325287",
+          "name": "Blake Slatkin",
+          "url": "https://genius.com/artists/Blake-slatkin"
+        },
+        {
+          "id": "49698",
+          "name": "Cashmere Cat",
+          "url": "https://genius.com/artists/Cashmere-cat"
+        },
+        {
+          "id": "229234",
+          "name": "MISOGI",
+          "url": "https://genius.com/artists/Misogi"
+        }
+      ],
+      "song_id": 11594030,
+      "song_name": "MONA LISA"
+    },
+    {
+      "artist": "Jin (진)",
+      "producer_count": 12,
+      "producers": [
+        {
+          "id": "4439517",
+          "name": "Joanna Ying Ng",
+          "url": "https://genius.com/artists/Joanna-ying-ng"
+        },
+        {
+          "id": "4439518",
+          "name": "Tasha Budiman",
+          "url": "https://genius.com/artists/Tasha-budiman"
+        },
+        {
+          "id": "4439519",
+          "name": "Charlene Yiu",
+          "url": "https://genius.com/artists/Charlene-yiu"
+        },
+        {
+          "id": "4439520",
+          "name": "Shandelyn Ang",
+          "url": "https://genius.com/artists/Shandelyn-ang"
+        },
+        {
+          "id": "4439521",
+          "name": "Seet Yan Shan",
+          "url": "https://genius.com/artists/Seet-yan-shan"
+        },
+        {
+          "id": "4439522",
+          "name": "Aron B Castro",
+          "url": "https://genius.com/artists/Aron-b-castro"
+        },
+        {
+          "id": "4439523",
+          "name": "Hummingbird (Video Producer)",
+          "url": "https://genius.com/artists/Hummingbird-video-producer"
+        },
+        {
+          "id": "3967420",
+          "name": "Ran Ro (Lumpens)",
+          "url": "https://genius.com/artists/Ran-ro-lumpens"
+        },
+        {
+          "id": "2947261",
+          "name": "Alex Teh",
+          "url": "https://genius.com/artists/Alex-teh"
+        },
+        {
+          "id": "4439516",
+          "name": "Nur Syafiqah Mustakim",
+          "url": "https://genius.com/artists/Nur-syafiqah-mustakim"
+        },
+        {
+          "id": "2006945",
+          "name": "Wyatt Sanders",
+          "url": "https://genius.com/artists/Wyatt-sanders"
+        },
+        {
+          "id": "1739638",
+          "name": "Nathan Fertig",
+          "url": "https://genius.com/artists/Nathan-fertig"
+        }
+      ],
+      "song_id": 11739529,
+      "song_name": "Don’t Say You Love Me"
+    },
+    {
+      "artist": "Hearts2Hearts",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11974466,
+      "song_name": "STYLE"
+    },
+    {
+      "artist": "SAY MY NAME (KOR)",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11516097,
+      "song_name": "ShaLala"
+    },
+    {
+      "artist": "XLOV (엑스러브)",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12519431,
+      "song_name": "Rizz"
+    },
+    {
+      "artist": "Fenix Darko",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "4090678",
+          "name": "Pvnksab",
+          "url": "https://genius.com/artists/Pvnksab"
+        }
+      ],
+      "song_id": 10824049,
+      "song_name": "IDC 2"
+    },
+    {
+      "artist": "YERI",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "1721882",
+          "name": "JINBYJIN (진바이진)",
+          "url": "https://genius.com/artists/Jinbyjin"
+        }
+      ],
+      "song_id": 4134220,
+      "song_name": "Hair in the Air"
+    },
+    {
+      "artist": "CORTIS (코르티스)",
+      "producer_count": 10,
+      "producers": [
+        {
+          "id": "4540282",
+          "name": "Minju Kim",
+          "url": "https://genius.com/artists/Minju-kim"
+        },
+        {
+          "id": "1983462",
+          "name": "Ovidio Jimenez",
+          "url": "https://genius.com/artists/Ovidio-jimenez"
+        },
+        {
+          "id": "3117916",
+          "name": "김지영 (Kim Ji Young)",
+          "url": "https://genius.com/artists/Kim-ji-young"
+        },
+        {
+          "id": "4283408",
+          "name": "Raymond Kissel",
+          "url": "https://genius.com/artists/Raymond-kissel"
+        },
+        {
+          "id": "4549663",
+          "name": "Minkyu Kang",
+          "url": "https://genius.com/artists/Minkyu-kang"
+        },
+        {
+          "id": "4549662",
+          "name": "KB Lee",
+          "url": "https://genius.com/artists/Kb-lee"
+        },
+        {
+          "id": "4061195",
+          "name": "Benjamin Kim",
+          "url": "https://genius.com/artists/Benjamin-kim"
+        },
+        {
+          "id": "1858382",
+          "name": "Zeus Zamani",
+          "url": "https://genius.com/artists/Zeus-zamani"
+        },
+        {
+          "id": "4559908",
+          "name": "Seungseok Lee",
+          "url": "https://genius.com/artists/Seungseok-lee"
+        },
+        {
+          "id": "1025972",
+          "name": "Johnny Goldstein",
+          "url": "https://genius.com/artists/Johnny-goldstein"
+        }
+      ],
+      "song_id": 12250228,
+      "song_name": "GO!"
+    },
+    {
+      "artist": "Kwesi Arthur",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "1100863",
+          "name": "Uche B",
+          "url": "https://genius.com/artists/Uche-b"
+        }
+      ],
+      "song_id": 7900182,
+      "song_name": "Mind Over Body"
+    },
+    {
+      "artist": "ATEEZ",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12077250,
+      "song_name": "In Your Fantasy"
+    },
+    {
+      "artist": "ATINY to ATEEZ",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "2483850",
+          "name": "Derivakat",
+          "url": "https://genius.com/artists/Derivakat"
+        },
+        {
+          "id": "2934609",
+          "name": "Dara (Producer)",
+          "url": "https://genius.com/artists/Dara-producer"
+        }
+      ],
+      "song_id": 6187132,
+      "song_name": "1024"
+    },
+    {
+      "artist": "Thirty Seconds to Mars",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "56493",
+          "name": "Josh Abraham",
+          "url": "https://genius.com/artists/Josh-abraham"
+        }
+      ],
+      "song_id": 190476,
+      "song_name": "Was It a Dream?"
+    },
+    {
+      "artist": "GORDON JR.",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "1932417",
+          "name": "27Corazones Beats",
+          "url": "https://genius.com/artists/27corazones-beats"
+        }
+      ],
+      "song_id": 5404559,
+      "song_name": "Amazing"
+    },
+    {
+      "artist": "Yves",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "1190172",
+          "name": "IOAH",
+          "url": "https://genius.com/artists/Ioah"
+        }
+      ],
+      "song_id": 12167381,
+      "song_name": "White cat"
+    },
+    {
+      "artist": "ARTMS",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "2799857",
+          "name": "Yu Yena (DIGIPEDI)",
+          "url": "https://genius.com/artists/Yu-yena-digipedi"
+        },
+        {
+          "id": "3910042",
+          "name": "yeon",
+          "url": "https://genius.com/artists/Yeon"
+        }
+      ],
+      "song_id": 11894571,
+      "song_name": "Icarus"
+    },
+    {
+      "artist": "Eminem",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "45",
+          "name": "Eminem",
+          "url": "https://genius.com/artists/Eminem"
+        },
+        {
+          "id": "33782",
+          "name": "Luis Resto",
+          "url": "https://genius.com/artists/Luis-resto"
+        }
+      ],
+      "song_id": 10630180,
+      "song_name": "Bad One"
+    },
+    {
+      "artist": "TOMORROW X TOGETHER",
+      "producer_count": 6,
+      "producers": [
+        {
+          "id": "4418914",
+          "name": "Somang Gwak",
+          "url": "https://genius.com/artists/Somang-gwak"
+        },
+        {
+          "id": "4418901",
+          "name": "Alejandro Lopez (Video Producer)",
+          "url": "https://genius.com/artists/Alejandro-lopez-video-producer"
+        },
+        {
+          "id": "4418913",
+          "name": "Lee Sub (TOMMY)",
+          "url": "https://genius.com/artists/Lee-sub-tommy"
+        },
+        {
+          "id": "4418902",
+          "name": "Robert Lopez (Executive Producer)",
+          "url": "https://genius.com/artists/Robert-lopez-executive-producer"
+        },
+        {
+          "id": "624322",
+          "name": "Slow Rabbit",
+          "url": "https://genius.com/artists/Slow-rabbit"
+        },
+        {
+          "id": "3380494",
+          "name": "The Elements",
+          "url": "https://genius.com/artists/The-elements"
+        }
+      ],
+      "song_id": 11696456,
+      "song_name": "Love Language"
+    },
+    {
+      "artist": "TOMORROW X TOGETHER",
+      "producer_count": 5,
+      "producers": [
+        {
+          "id": "4420863",
+          "name": "Seungwon Lee",
+          "url": "https://genius.com/artists/Seungwon-lee"
+        },
+        {
+          "id": "4466138",
+          "name": "Sebong Oh",
+          "url": "https://genius.com/artists/Sebong-oh"
+        },
+        {
+          "id": "624322",
+          "name": "Slow Rabbit",
+          "url": "https://genius.com/artists/Slow-rabbit"
+        },
+        {
+          "id": "624325",
+          "name": "“hitman” Bang",
+          "url": "https://genius.com/artists/Hitman-bang"
+        },
+        {
+          "id": "3870221",
+          "name": "MARTIN (CORTIS)",
+          "url": "https://genius.com/artists/Martin-cortis"
+        }
+      ],
+      "song_id": 12081351,
+      "song_name": "Beautiful Strangers"
+    },
+    {
+      "artist": "ITZY",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11855543,
+      "song_name": "Girls Will Be Girls"
+    },
+    {
+      "artist": "TWICE",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "196022",
+          "name": "Michel “Lindgren” Schulz",
+          "url": "https://genius.com/artists/Michel-lindgren-schulz"
+        },
+        {
+          "id": "1145936",
+          "name": "Ian Eisendrath",
+          "url": "https://genius.com/artists/Ian-eisendrath"
+        }
+      ],
+      "song_id": 11871992,
+      "song_name": "TAKEDOWN"
+    },
+    {
+      "artist": "LE SSERAFIM",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "4387074",
+          "name": "Joohun Kim (liminal)",
+          "url": "https://genius.com/artists/Joohun-kim-liminal"
+        },
+        {
+          "id": "4387072",
+          "name": "Chanyoung Park (Line Producer)",
+          "url": "https://genius.com/artists/Chanyoung-park-line-producer"
+        },
+        {
+          "id": "2403589",
+          "name": "13 (KOR)",
+          "url": "https://genius.com/artists/13-kor"
+        },
+        {
+          "id": "2623594",
+          "name": "Jackson Shanks",
+          "url": "https://genius.com/artists/Jackson-shanks"
+        }
+      ],
+      "song_id": 11487113,
+      "song_name": "HOT"
+    },
+    {
+      "artist": "Madonna",
+      "producer_count": 5,
+      "producers": [
+        {
+          "id": "276",
+          "name": "Madonna",
+          "url": "https://genius.com/artists/Madonna"
+        },
+        {
+          "id": "17491",
+          "name": "Avicii",
+          "url": "https://genius.com/artists/Avicii"
+        },
+        {
+          "id": "64761",
+          "name": "Salem Al Fakir",
+          "url": "https://genius.com/artists/Salem-al-fakir"
+        },
+        {
+          "id": "152194",
+          "name": "Magnus Lidehäll",
+          "url": "https://genius.com/artists/Magnus-lidehall"
+        },
+        {
+          "id": "166093",
+          "name": "Vincent Pontare",
+          "url": "https://genius.com/artists/Vincent-pontare"
+        }
+      ],
+      "song_id": 599473,
+      "song_name": "Rebel Heart"
+    },
+    {
+      "artist": "RIIZE",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "2102252",
+          "name": "Stian Nyhammer Olsen",
+          "url": "https://genius.com/artists/Stian-nyhammer-olsen"
+        },
+        {
+          "id": "3325235",
+          "name": "JOP (NOR)",
+          "url": "https://genius.com/artists/Jop-nor"
+        }
+      ],
+      "song_id": 11794750,
+      "song_name": "Fly Up"
+    },
+    {
+      "artist": "BAEKHYUN",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11855160,
+      "song_name": "Elevator"
+    },
+    {
+      "artist": "Ian (ROU)",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "2572541",
+          "name": "Deyu",
+          "url": "https://genius.com/artists/Deyu"
+        }
+      ],
+      "song_id": 12305790,
+      "song_name": "Pablo"
+    },
+    {
+      "artist": "LISA",
+      "producer_count": 10,
+      "producers": [
+        {
+          "id": "1528176",
+          "name": "Camille Yorrick",
+          "url": "https://genius.com/artists/Camille-yorrick"
+        },
+        {
+          "id": "4361564",
+          "name": "Jami Taylor Arceo",
+          "url": "https://genius.com/artists/Jami-taylor-arceo"
+        },
+        {
+          "id": "2792461",
+          "name": "Yamel Thompson",
+          "url": "https://genius.com/artists/Yamel-thompson"
+        },
+        {
+          "id": "4438329",
+          "name": "Veronica Leon",
+          "url": "https://genius.com/artists/Veronica-leon"
+        },
+        {
+          "id": "39585",
+          "name": "Kuk Harrell",
+          "url": "https://genius.com/artists/Kuk-harrell"
+        },
+        {
+          "id": "2064558",
+          "name": "Oscar Cornejo",
+          "url": "https://genius.com/artists/Oscar-cornejo"
+        },
+        {
+          "id": "1043444",
+          "name": "Ari PenSmith",
+          "url": "https://genius.com/artists/Ari-pensmith"
+        },
+        {
+          "id": "3317229",
+          "name": "Mocha Bands",
+          "url": "https://genius.com/artists/Mocha-bands"
+        },
+        {
+          "id": "3506869",
+          "name": "Believve",
+          "url": "https://genius.com/artists/Believve"
+        },
+        {
+          "id": "1569669",
+          "name": "Sammy Soso",
+          "url": "https://genius.com/artists/Sammy-soso"
+        }
+      ],
+      "song_id": 11037277,
+      "song_name": "When I’m With You"
+    },
+    {
+      "artist": "JENNIE",
+      "producer_count": 4,
+      "producers": [
+        {
+          "id": "29978",
+          "name": "Mike WiLL Made-It",
+          "url": "https://genius.com/artists/Mike-will-made-it"
+        },
+        {
+          "id": "139042",
+          "name": "Resource",
+          "url": "https://genius.com/artists/Resource"
+        },
+        {
+          "id": "1108806",
+          "name": "Myles Harris",
+          "url": "https://genius.com/artists/Myles-harris"
+        },
+        {
+          "id": "627390",
+          "name": "Xeryus",
+          "url": "https://genius.com/artists/Xeryus"
+        }
+      ],
+      "song_id": 11496633,
+      "song_name": "Seoul City"
+    },
+    {
+      "artist": "BIBI (비비)",
+      "producer_count": 7,
+      "producers": [
+        {
+          "id": "4387065",
+          "name": "Wonsung Yoon",
+          "url": "https://genius.com/artists/Wonsung-yoon"
+        },
+        {
+          "id": "4165271",
+          "name": "Taekhyeon Lim",
+          "url": "https://genius.com/artists/Taekhyeon-lim"
+        },
+        {
+          "id": "4435300",
+          "name": "Kim Yongbae",
+          "url": "https://genius.com/artists/Kim-yongbae"
+        },
+        {
+          "id": "3692776",
+          "name": "Kim Yuri (김유리)",
+          "url": "https://genius.com/artists/Kim-yuri"
+        },
+        {
+          "id": "4435301",
+          "name": "Chung Sung",
+          "url": "https://genius.com/artists/Chung-sung"
+        },
+        {
+          "id": "4672459",
+          "name": "KIm Taeyeon (Video Producer)",
+          "url": "https://genius.com/artists/Kim-taeyeon-video-producer"
+        },
+        {
+          "id": "4435299",
+          "name": "Kim Namsuk",
+          "url": "https://genius.com/artists/Kim-namsuk"
+        }
+      ],
+      "song_id": 11836007,
+      "song_name": "종말의 사과나무 (Apocalypse)"
+    },
+    {
+      "artist": "G-DRAGON (지드래곤)",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "69141",
+          "name": "G-DRAGON (지드래곤)",
+          "url": "https://genius.com/artists/G-dragon"
+        }
+      ],
+      "song_id": 11056528,
+      "song_name": "DRAMA"
+    },
+    {
+      "artist": "ZEROBASEONE",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 12272159,
+      "song_name": "ICONIK"
+    },
+    {
+      "artist": "ZEROBASEONE",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11448895,
+      "song_name": "BLUE"
+    },
+    {
+      "artist": "RIIZE",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "4681337",
+          "name": "ASSIST (Line Producer)",
+          "url": "https://genius.com/artists/Assist-line-producer"
+        },
+        {
+          "id": "4681293",
+          "name": "Yoojeong Ko",
+          "url": "https://genius.com/artists/Yoojeong-ko"
+        }
+      ],
+      "song_id": 12639155,
+      "song_name": "Fame"
+    },
+    {
+      "artist": "NCT WISH",
+      "producer_count": 0,
+      "producers": [],
+      "song_id": 11616676,
+      "song_name": "poppop"
+    },
+    {
+      "artist": "ENHYPEN",
+      "producer_count": 8,
+      "producers": [
+        {
+          "id": "3237434",
+          "name": "Yeonjin Kim (OUI PRODUCTION)",
+          "url": "https://genius.com/artists/Yeonjin-kim-oui-production"
+        },
+        {
+          "id": "4466138",
+          "name": "Sebong Oh",
+          "url": "https://genius.com/artists/Sebong-oh"
+        },
+        {
+          "id": "4420863",
+          "name": "Seungwon Lee",
+          "url": "https://genius.com/artists/Seungwon-lee"
+        },
+        {
+          "id": "4420862",
+          "name": "Donghyun Jeong",
+          "url": "https://genius.com/artists/Donghyun-jeong"
+        },
+        {
+          "id": "30425",
+          "name": "Cirkut",
+          "url": "https://genius.com/artists/Cirkut"
+        },
+        {
+          "id": "624325",
+          "name": "“hitman” Bang",
+          "url": "https://genius.com/artists/Hitman-bang"
+        },
+        {
+          "id": "624322",
+          "name": "Slow Rabbit",
+          "url": "https://genius.com/artists/Slow-rabbit"
+        },
+        {
+          "id": "1017631",
+          "name": "아르마딜로 (Armadillo)",
+          "url": "https://genius.com/artists/Armadillo"
+        }
+      ],
+      "song_id": 11899290,
+      "song_name": "Bad Desire (With or Without You)"
+    },
+    {
+      "artist": "Eminem",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "45",
+          "name": "Eminem",
+          "url": "https://genius.com/artists/Eminem"
+        },
+        {
+          "id": "33782",
+          "name": "Luis Resto",
+          "url": "https://genius.com/artists/Luis-resto"
+        }
+      ],
+      "song_id": 5180451,
+      "song_name": "I Will"
+    },
+    {
+      "artist": "BOYNEXTDOOR",
+      "producer_count": 3,
+      "producers": [
+        {
+          "id": "1014228",
+          "name": "Pop Time",
+          "url": "https://genius.com/artists/Pop-time"
+        },
+        {
+          "id": "1882451",
+          "name": "Kako (KOR)",
+          "url": "https://genius.com/artists/Kako-kor"
+        },
+        {
+          "id": "217593",
+          "name": "ZICO",
+          "url": "https://genius.com/artists/Zico"
+        }
+      ],
+      "song_id": 12490744,
+      "song_name": "Hollywood Action"
+    },
+    {
+      "artist": "BOYNEXTDOOR",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "1014228",
+          "name": "Pop Time",
+          "url": "https://genius.com/artists/Pop-time"
+        },
+        {
+          "id": "1882451",
+          "name": "Kako (KOR)",
+          "url": "https://genius.com/artists/Kako-kor"
+        }
+      ],
+      "song_id": 11234788,
+      "song_name": "오늘만 I LOVE YOU (IF I SAY, I LOVE YOU)"
+    },
+    {
+      "artist": "Mini Viva",
+      "producer_count": 2,
+      "producers": [
+        {
+          "id": "137085",
+          "name": "Xenomania",
+          "url": "https://genius.com/artists/Xenomania"
+        },
+        {
+          "id": "137084",
+          "name": "Brian Higgins",
+          "url": "https://genius.com/artists/Brian-higgins"
+        }
+      ],
+      "song_id": 907111,
+      "song_name": "One Touch"
+    },
+    {
+      "artist": "Franky Love",
+      "producer_count": 1,
+      "producers": [
+        {
+          "id": "500810",
+          "name": "Franky Love",
+          "url": "https://genius.com/artists/Franky-love"
+        }
+      ],
+      "song_id": 2143012,
+      "song_name": "Dirty Katharsis"
+    }
+  ],
+  "stats": {
+    "most_collaborative_producer": {
+      "collaborators_count": 15,
+      "name": "“hitman” Bang",
+      "total_songs": 3
+    },
+    "total_producers": 105,
+    "total_songs_processed": 50,
+    "total_songs_with_collaborations": 26
+  },
+  "success": true
+}
