@@ -1,8 +1,8 @@
 // script.js (full)
-// - Node size = number of edges (songs)
+// - Node size = number of collaborations
 // - Link exists if a producer appears in any collaborators list (and that collaborator exists as a node)
 // - No labels by default; tooltip on hover
-// - Hover highlights the node + its 1-hop neighborhood; everything else fades
+// - Hover highlights the node + its 1-hop neighborhood; edges appear on hover
 // - Colored nodes/links (not black & white)
 // - Click a node to "pin" a detail panel showing that producer's songs
 
@@ -40,19 +40,24 @@ function h() {
     return svg.node().clientHeight;
 }
 
-fetch("./kpop_producers.json")
+fetch("./output_50.json")
     .then((r) => {
         if (!r.ok) throw new Error(`Failed to load JSON: ${r.status}`);
         return r.json();
     })
     .then((data) => {
+        // Access the network object from the JSON structure
+        const networkData = data.network || data;
+
         // -----------------------------
         // Build nodes from JSON values
         // -----------------------------
-        const nodes = Object.values(data).map((p) => ({
+        const nodes = Object.values(networkData).map((p) => ({
             id: String(p.id),
             name: p.name ?? `Producer ${p.id}`,
-            edgeCount: Array.isArray(p.edges) ? p.edges.length : 0,
+            edgeCount: p.total_songs ?? (Array.isArray(p.edges) ? p.edges.length : 0),
+            totalCollaborations: p.total_collaborations ?? 0,
+            uniqueCollaborators: p.unique_collaborators_count ?? 0,
         }));
 
         const nodeById = new Map(nodes.map((n) => [n.id, n]));
@@ -67,8 +72,8 @@ fetch("./kpop_producers.json")
             return `${x}--${y}`;
         };
 
-        for (const producerKey of Object.keys(data)) {
-            const producer = data[producerKey];
+        for (const producerKey of Object.keys(networkData)) {
+            const producer = networkData[producerKey];
             if (!producer) continue;
 
             const fromId = String(producer.id);
@@ -94,20 +99,29 @@ fetch("./kpop_producers.json")
             }
         }
 
-        const links = Array.from(linksMap.values()).map((l) => ({
-            source: l.source,
-            target: l.target,
-            songs: Array.from(l.songs),
-        }));
+        // Map links to use node objects instead of IDs for easier position updates
+        const links = Array.from(linksMap.values()).map((l) => {
+            const sourceNode = nodeById.get(l.source);
+            const targetNode = nodeById.get(l.target);
+            return {
+                source: sourceNode || l.source,
+                target: targetNode || l.target,
+                songs: Array.from(l.songs),
+                sourceId: l.source,
+                targetId: l.target,
+            };
+        });
 
         // -----------------------------
-        // Node sizing
+        // Node sizing (based on collaborations)
         // -----------------------------
-        const maxEdges = d3.max(nodes, (d) => d.edgeCount) ?? 0;
+        const maxCollaborations = d3.max(nodes, (d) => d.totalCollaborations) ?? 0;
+        const minCollaborations = d3.min(nodes, (d) => d.totalCollaborations) ?? 0;
+        // Use linear scale for more visible differences between collaboration counts
         const radius = d3
-            .scaleSqrt()
-            .domain([0, Math.max(1, maxEdges)])
-            .range([7, 28]);
+            .scaleLinear()
+            .domain([minCollaborations, maxCollaborations])
+            .range([8, 28]);
 
         // -----------------------------
         // Color scale (not B/W)
@@ -137,14 +151,14 @@ fetch("./kpop_producers.json")
         for (const n of nodes) neighbors.set(n.id, new Set([n.id]));
 
         for (const l of links) {
-            const a = typeof l.source === "object" ? l.source.id : l.source;
-            const b = typeof l.target === "object" ? l.target.id : l.target;
+            const a = typeof l.source === "object" ? l.source.id : (l.sourceId || l.source);
+            const b = typeof l.target === "object" ? l.target.id : (l.targetId || l.target);
             neighbors.get(a)?.add(b);
             neighbors.get(b)?.add(a);
         }
 
         // -----------------------------
-        // Draw links
+        // Draw links (initially hidden)
         // -----------------------------
         const link = g
             .append("g")
@@ -153,17 +167,60 @@ fetch("./kpop_producers.json")
             .join("line")
             .attr("class", "link")
             .attr("stroke", (d) => {
-                const sid = typeof d.source === "object" ? d.source.id : d.source;
+                const sid = typeof d.source === "object" ? d.source.id : (d.sourceId || d.source);
                 return color(sid);
-            });
+            })
+            .style("opacity", 0); // Initially hidden
 
         // -----------------------------
         // Selection state (for click)
         // -----------------------------
         let selectedId = null;
+        let isSubNetworkMode = false;
+
+        function showSubNetwork(producerId) {
+            const neigh = neighbors.get(producerId) ?? new Set([producerId]);
+            isSubNetworkMode = true;
+
+            // Show edges only within the sub-network
+            link
+                .transition()
+                .duration(300)
+                .style("opacity", (l) => {
+                    const a = typeof l.source === "object" ? l.source.id : (l.sourceId || l.source);
+                    const b = typeof l.target === "object" ? l.target.id : (l.targetId || l.target);
+                    return (neigh.has(a) && neigh.has(b)) ? 0.6 : 0;
+                });
+
+            // Hide/fade nodes not in the sub-network
+            node
+                .transition()
+                .duration(300)
+                .style("opacity", (n) => neigh.has(n.id) ? 1 : 0.1)
+                .classed("faded", (n) => !neigh.has(n.id));
+        }
+
+        function showFullNetwork() {
+            isSubNetworkMode = false;
+            selectedId = null;
+
+            // Hide all edges
+            link
+                .transition()
+                .duration(300)
+                .style("opacity", 0);
+
+            // Show all nodes at full opacity
+            node
+                .transition()
+                .duration(300)
+                .style("opacity", 1)
+                .classed("faded", false)
+                .classed("node-selected", false);
+        }
 
         function showDetailsFor(producerId) {
-            const p = data[String(producerId)];
+            const p = networkData[String(producerId)];
             if (!p) return;
 
             const songs = (Array.isArray(p.edges) ? p.edges : [])
@@ -181,7 +238,10 @@ fetch("./kpop_producers.json")
               ${escapeHtml(p.name ?? `Producer ${p.id}`)}
             </div>
             <div style="opacity:.8;">ID: <strong>${escapeHtml(String(p.id))}</strong></div>
-            <div style="opacity:.8;">Songs (edges): <strong>${uniqueSongs.length}</strong></div>
+            <div style="opacity:.8;">Total Songs: <strong>${p.total_songs ?? uniqueSongs.length}</strong></div>
+            <div style="opacity:.8;">Total Collaborations: <strong>${p.total_collaborations ?? 0}</strong></div>
+            <div style="opacity:.8;">Unique Collaborators: <strong>${p.unique_collaborators_count ?? 0}</strong></div>
+            ${p.url ? `<div style="opacity:.8;margin-top:4px;"><a href="${escapeHtml(p.url)}" target="_blank" style="color:#6BAED6;text-decoration:none;">View on Genius →</a></div>` : ''}
           </div>
           <button id="detailsClose" style="
             all: unset;
@@ -206,10 +266,8 @@ fetch("./kpop_producers.json")
             const btn = document.getElementById("detailsClose");
             if (btn) {
                 btn.addEventListener("click", () => {
-                    selectedId = null;
+                    showFullNetwork();
                     details.style.display = "none";
-                    // reset selection visuals
-                    node.classed("node-selected", false);
                 });
             }
         }
@@ -223,9 +281,67 @@ fetch("./kpop_producers.json")
             .data(nodes)
             .join("circle")
             .attr("class", "node")
-            .attr("r", (d) => radius(d.edgeCount))
-            .attr("fill", "#6BAED6")
+            .attr("r", (d) => radius(d.totalCollaborations))
+            .attr("fill", "#6BAED6");
+
+        // Add floating animation to nodes
+        // Store original positions and animation offsets
+        nodes.forEach((n, i) => {
+            n.baseX = n.x;
+            n.baseY = n.y;
+            n.floatPhase = (i * 2 * Math.PI) / nodes.length; // Stagger phases for natural look
+            n.floatAmplitude = 2 + Math.random() * 2; // Random amplitude between 2-4 pixels
+            n.floatSpeed = 0.5 + Math.random() * 0.5; // Random speed between 0.5-1.0
+        });
+
+        let animationTime = 0;
+        let isAnimating = true;
+        let hoveredNodeId = null;
+
+        function animateFloat() {
+            if (!isAnimating) {
+                requestAnimationFrame(animateFloat);
+                return;
+            }
+
+            animationTime += 0.016; // ~60fps
+
+            nodes.forEach((n) => {
+                // Skip animation for hovered node or if in sub-network mode with faded nodes
+                if (hoveredNodeId === n.id || (isSubNetworkMode && !neighbors.get(selectedId || '')?.has(n.id))) {
+                    return;
+                }
+
+                // Gentle floating motion using sine waves
+                const offsetX = Math.sin(animationTime * n.floatSpeed + n.floatPhase) * n.floatAmplitude;
+                const offsetY = Math.cos(animationTime * n.floatSpeed * 0.7 + n.floatPhase) * n.floatAmplitude * 0.8;
+
+                // Update node position with floating offset
+                const nodeElement = node.filter((d) => d.id === n.id);
+                if (nodeElement.size() > 0) {
+                    nodeElement
+                        .attr("cx", (d) => (d.baseX || d.x) + offsetX)
+                        .attr("cy", (d) => (d.baseY || d.y) + offsetY);
+                }
+            });
+
+            requestAnimationFrame(animateFloat);
+        }
+
+        // Start the floating animation
+        animateFloat();
+
+        // Add event handlers to nodes
+        node
             .on("mouseenter", (event, d) => {
+                // Pause floating animation for this node
+                hoveredNodeId = d.id;
+
+                // Reset node to base position
+                node.filter((n) => n.id === d.id)
+                    .attr("cx", (n) => n.baseX || n.x)
+                    .attr("cy", (n) => n.baseY || n.y);
+
                 // Tooltip (show name only on hover)
                 tooltip
                     .style("opacity", 1)
@@ -235,32 +351,61 @@ fetch("./kpop_producers.json")
               ${escapeHtml(d.name)}
             </div>
             <div>ID: <strong>${escapeHtml(d.id)}</strong></div>
-            <div>Songs (edges): <strong>${d.edgeCount}</strong></div>
-            <div style="opacity:.75;margin-top:6px;">Click to view songs</div>`
+            <div>Songs: <strong>${d.edgeCount}</strong></div>
+            <div>Collaborations: <strong>${d.totalCollaborations}</strong></div>
+            <div style="opacity:.75;margin-top:6px;">Click to focus sub-network</div>`
                     );
 
                 moveTooltip(event);
 
-                // Highlight 1-hop neighborhood
-                const neigh = neighbors.get(d.id) ?? new Set([d.id]);
+                // Only show hover effects if not in sub-network mode
+                if (!isSubNetworkMode) {
+                    // Get 1-hop neighborhood
+                    const neigh = neighbors.get(d.id) ?? new Set([d.id]);
 
-                node.classed("faded", (n) => !neigh.has(n.id));
-                link.classed("faded", (l) => {
-                    const a = typeof l.source === "object" ? l.source.id : l.source;
-                    const b = typeof l.target === "object" ? l.target.id : l.target;
-                    return !(neigh.has(a) && neigh.has(b));
-                });
+                    // Show edges connected to this node
+                    link
+                        .style("opacity", (l) => {
+                            const a = typeof l.source === "object" ? l.source.id : (l.sourceId || l.source);
+                            const b = typeof l.target === "object" ? l.target.id : (l.targetId || l.target);
+                            return (neigh.has(a) && neigh.has(b)) ? 0.6 : 0;
+                        })
+                        .transition()
+                        .duration(200)
+                        .style("opacity", (l) => {
+                            const a = typeof l.source === "object" ? l.source.id : (l.sourceId || l.source);
+                            const b = typeof l.target === "object" ? l.target.id : (l.targetId || l.target);
+                            return (neigh.has(a) && neigh.has(b)) ? 0.6 : 0;
+                        });
+
+                    // Fade nodes not in neighborhood
+                    node.classed("faded", (n) => !neigh.has(n.id));
+                }
 
                 // Glow hovered node
                 node.classed("node-glow", (n) => n.id === d.id);
             })
             .on("mousemove", (event) => moveTooltip(event))
             .on("mouseleave", () => {
+                // Resume floating animation
+                hoveredNodeId = null;
+
                 tooltip.style("opacity", 0).attr("aria-hidden", "true");
 
-                // Reset fade + glow (but keep selection styling if any)
-                node.classed("faded", false).classed("node-glow", false);
-                link.classed("faded", false);
+                // Only reset hover effects if not in sub-network mode
+                if (!isSubNetworkMode) {
+                    // Hide all edges again
+                    link
+                        .transition()
+                        .duration(200)
+                        .style("opacity", 0);
+
+                    // Reset fade + glow (but keep selection styling if any)
+                    node.classed("faded", false).classed("node-glow", false);
+                } else {
+                    // Just remove glow, keep sub-network state
+                    node.classed("node-glow", false);
+                }
             })
             .on("click", (event, d) => {
                 // prevent zoom drag from also triggering click weirdness
@@ -268,30 +413,56 @@ fetch("./kpop_producers.json")
 
                 selectedId = d.id;
                 showDetailsFor(d.id);
+                showSubNetwork(d.id);
 
-                // Optional: visually indicate selected node
+                // Visually indicate selected node
                 node.classed("node-selected", (n) => n.id === selectedId);
             });
 
-        // Clicking the empty canvas hides the panel
-        svg.on("click", () => {
-            selectedId = null;
-            details.style.display = "none";
-            node.classed("node-selected", false);
+        // Clicking the empty canvas restores full network view
+        svg.on("click", (event) => {
+            // Only trigger if clicking directly on the SVG background, not on nodes/links
+            const target = event.target;
+            // If clicking on a node (circle) or link (line), don't restore - those have their own handlers
+            if (target.tagName !== 'circle' && target.tagName !== 'line') {
+                showFullNetwork();
+                details.style.display = "none";
+            }
         });
 
         // -----------------------------
-        // Force simulation
+        // Initial radial layout: larger nodes (more collaborations) in center
+        // -----------------------------
+        const centerX = w() / 2;
+        const centerY = h() / 2;
+        const sortedNodes = [...nodes].sort((a, b) => b.totalCollaborations - a.totalCollaborations);
+
+        sortedNodes.forEach((n, i) => {
+            if (i === 0) {
+                // Largest node (most collaborations) at center
+                n.x = centerX;
+                n.y = centerY;
+            } else {
+                // Arrange others in concentric circles based on collaboration count
+                const angle = (i * 2 * Math.PI) / (sortedNodes.length - 1);
+                const baseRadius = 50 + Math.sqrt(i) * 15;
+                const radiusVariation = (n.totalCollaborations / maxCollaborations) * 30;
+                const r = baseRadius + radiusVariation;
+                n.x = centerX + r * Math.cos(angle);
+                n.y = centerY + r * Math.sin(angle);
+            }
+        });
+
+        // -----------------------------
+        // Force simulation (without link force initially)
         // -----------------------------
         const sim = d3
             .forceSimulation(nodes)
-            .force(
-                "link",
-                d3.forceLink(links).id((d) => d.id).distance(120).strength(0.7)
-            )
-            .force("charge", d3.forceManyBody().strength(-300))
-            .force("center", d3.forceCenter(w() / 2, h() / 2))
-            .force("collide", d3.forceCollide().radius((d) => radius(d.edgeCount) + 4));
+            .force("charge", d3.forceManyBody().strength(-50))
+            .force("center", d3.forceCenter(centerX, centerY).strength(0.1))
+            .force("collide", d3.forceCollide().radius((d) => radius(d.totalCollaborations) + 8))
+            .alphaDecay(0.05)
+            .velocityDecay(0.6);
 
         // Drag behavior
         node.call(
@@ -314,13 +485,31 @@ fetch("./kpop_producers.json")
         );
 
         sim.on("tick", () => {
+            // Update link positions (even if hidden)
             link
-                .attr("x1", (d) => d.source.x)
-                .attr("y1", (d) => d.source.y)
-                .attr("x2", (d) => d.target.x)
-                .attr("y2", (d) => d.target.y);
+                .attr("x1", (d) => {
+                    const source = typeof d.source === "object" ? d.source : nodeById.get(d.sourceId);
+                    return source?.x ?? 0;
+                })
+                .attr("y1", (d) => {
+                    const source = typeof d.source === "object" ? d.source : nodeById.get(d.sourceId);
+                    return source?.y ?? 0;
+                })
+                .attr("x2", (d) => {
+                    const target = typeof d.target === "object" ? d.target : nodeById.get(d.targetId);
+                    return target?.x ?? 0;
+                })
+                .attr("y2", (d) => {
+                    const target = typeof d.target === "object" ? d.target : nodeById.get(d.targetId);
+                    return target?.y ?? 0;
+                });
 
-            node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+            // Update base positions for floating animation
+            // Note: Node positions are handled by the floating animation, not directly here
+            nodes.forEach((n) => {
+                n.baseX = n.x;
+                n.baseY = n.y;
+            });
         });
 
         // Resize handling
