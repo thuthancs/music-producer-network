@@ -46,6 +46,7 @@ def find_original_song_with_credits(song_title, artist_name):
             artist_result = song['primary_artist']['name']
             
             # Skip translations and romanized versions
+            # TODO: Create a more robust way to filter out translations because there might be more translations than just romanized, english, etc.
             title_lower = song_title_result.lower()
             if any(keyword in title_lower for keyword in ['translation', 'romanized', 'english ver', 'japanese ver']):
                 continue
@@ -255,7 +256,8 @@ def build_producer_network(songs_data):
     
     return network_output
 
-
+# API endpoint to process songs and extract producer information
+# TODO: Move this into a separate file to keep it modular and clean.
 @app.route('/api/process-songs', methods=['POST'])
 def api_process_songs():
     """
