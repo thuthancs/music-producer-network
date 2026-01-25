@@ -1,0 +1,1599 @@
+{
+  "1": {
+    "id": "1",
+    "name": "Pdogg",
+    "edges": [
+      {
+        "song_name": "Neon Pulse",
+        "collaborators": [
+          "2",
+          "6",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Starlight Run",
+        "collaborators": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "song_name": "Midnight Choreo",
+        "collaborators": [
+          "4",
+          "7"
+        ]
+      },
+      {
+        "song_name": "Holo Heart",
+        "collaborators": [
+          "8"
+        ]
+      },
+      {
+        "song_name": "City of Echoes",
+        "collaborators": [
+          "10",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Sugar Static",
+        "collaborators": [
+          "11"
+        ]
+      },
+      {
+        "song_name": "Chrome Tears",
+        "collaborators": [
+          "13",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Gravity Kiss",
+        "collaborators": [
+          "15"
+        ]
+      },
+      {
+        "song_name": "Skyline Fever",
+        "collaborators": [
+          "16",
+          "20"
+        ]
+      },
+      {
+        "song_name": "Afterglow Anthem",
+        "collaborators": [
+          "18",
+          "19"
+        ]
+      }
+    ]
+  },
+  "2": {
+    "id": "2",
+    "name": "Teddy Park",
+    "edges": [
+      {
+        "song_name": "Black Velvet Night",
+        "collaborators": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "song_name": "Laser Crown",
+        "collaborators": [
+          "3",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Fever Dream",
+        "collaborators": [
+          "6"
+        ]
+      },
+      {
+        "song_name": "Glam Riot",
+        "collaborators": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "song_name": "Rooftop Sparks",
+        "collaborators": [
+          "10",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Crush Mode",
+        "collaborators": [
+          "14"
+        ]
+      },
+      {
+        "song_name": "Highwire Love",
+        "collaborators": [
+          "15",
+          "16"
+        ]
+      }
+    ]
+  },
+  "3": {
+    "id": "3",
+    "name": "Kenzie",
+    "edges": [
+      {
+        "song_name": "Crystal Voltage",
+        "collaborators": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "song_name": "Dream Sync",
+        "collaborators": [
+          "1",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Halo Bounce",
+        "collaborators": [
+          "4"
+        ]
+      },
+      {
+        "song_name": "Electric Ribbon",
+        "collaborators": [
+          "6",
+          "13"
+        ]
+      },
+      {
+        "song_name": "Sugarwired",
+        "collaborators": [
+          "11",
+          "12"
+        ]
+      }
+    ]
+  },
+  "4": {
+    "id": "4",
+    "name": "Shinsadong Tiger",
+    "edges": [
+      {
+        "song_name": "Tiger Beat",
+        "collaborators": [
+          "2",
+          "7",
+          "8"
+        ]
+      },
+      {
+        "song_name": "Cherry Siren",
+        "collaborators": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "song_name": "Night Market",
+        "collaborators": [
+          "10"
+        ]
+      },
+      {
+        "song_name": "Glitter Proof",
+        "collaborators": [
+          "12",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Runway Rush",
+        "collaborators": [
+          "15"
+        ]
+      },
+      {
+        "song_name": "Bass Blossom",
+        "collaborators": [
+          "6",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Luna Loop",
+        "collaborators": [
+          "16",
+          "18"
+        ]
+      },
+      {
+        "song_name": "Pulse Parade",
+        "collaborators": [
+          "19"
+        ]
+      }
+    ]
+  },
+  "5": {
+    "id": "5",
+    "name": "Zico",
+    "edges": [
+      {
+        "song_name": "Raw Signal",
+        "collaborators": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Pocket Fire",
+        "collaborators": [
+          "9",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Mirage Flex",
+        "collaborators": [
+          "10"
+        ]
+      },
+      {
+        "song_name": "Street Prism",
+        "collaborators": [
+          "12",
+          "13"
+        ]
+      },
+      {
+        "song_name": "Backseat Bass",
+        "collaborators": [
+          "14",
+          "15"
+        ]
+      },
+      {
+        "song_name": "Glow Up Game",
+        "collaborators": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "6": {
+    "id": "6",
+    "name": "GroovyRoom",
+    "edges": [
+      {
+        "song_name": "Groove Arcade",
+        "collaborators": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "song_name": "Bounce Circuit",
+        "collaborators": [
+          "2",
+          "7"
+        ]
+      },
+      {
+        "song_name": "Stereo Skyline",
+        "collaborators": [
+          "3",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Night Drive Kit",
+        "collaborators": [
+          "11"
+        ]
+      }
+    ]
+  },
+  "7": {
+    "id": "7",
+    "name": "Gray",
+    "edges": [
+      {
+        "song_name": "Blue Frequency",
+        "collaborators": [
+          "2",
+          "4"
+        ]
+      },
+      {
+        "song_name": "Soft Power",
+        "collaborators": [
+          "6",
+          "8"
+        ]
+      }
+    ]
+  },
+  "8": {
+    "id": "8",
+    "name": "Primary",
+    "edges": [
+      {
+        "song_name": "Velvet Radio",
+        "collaborators": [
+          "4",
+          "7"
+        ]
+      }
+    ]
+  },
+  "9": {
+    "id": "9",
+    "name": "LDN Noise",
+    "edges": [
+      {
+        "song_name": "Crystal Night",
+        "collaborators": [
+          "1",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Hyper Neon",
+        "collaborators": [
+          "10",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Satellite Pop",
+        "collaborators": [
+          "12"
+        ]
+      },
+      {
+        "song_name": "Mirror Maze",
+        "collaborators": [
+          "13",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Gravity Glitter",
+        "collaborators": [
+          "15"
+        ]
+      },
+      {
+        "song_name": "Afterparty Engine",
+        "collaborators": [
+          "16",
+          "18"
+        ]
+      },
+      {
+        "song_name": "Chromatic Kiss",
+        "collaborators": [
+          "19",
+          "20"
+        ]
+      },
+      {
+        "song_name": "Citylight Bloom",
+        "collaborators": [
+          "2"
+        ]
+      },
+      {
+        "song_name": "Louder Than Love",
+        "collaborators": [
+          "4",
+          "5"
+        ]
+      }
+    ]
+  },
+  "10": {
+    "id": "10",
+    "name": "Sweetune",
+    "edges": [
+      {
+        "song_name": "Retro Rocket",
+        "collaborators": [
+          "1",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Guitar Glitter",
+        "collaborators": [
+          "2",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Cassette Crush",
+        "collaborators": [
+          "11"
+        ]
+      }
+    ]
+  },
+  "11": {
+    "id": "11",
+    "name": "R.Tee",
+    "edges": [
+      {
+        "song_name": "808 Blossom",
+        "collaborators": [
+          "2",
+          "5"
+        ]
+      },
+      {
+        "song_name": "Glass Engine",
+        "collaborators": [
+          "3",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Moonlit Bounce",
+        "collaborators": [
+          "6",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Sparkling Static",
+        "collaborators": [
+          "12",
+          "14"
+        ]
+      },
+      {
+        "song_name": "After Hours Idol",
+        "collaborators": [
+          "15",
+          "16"
+        ]
+      }
+    ]
+  },
+  "12": {
+    "id": "12",
+    "name": "Dem Jointz",
+    "edges": [
+      {
+        "song_name": "Jointz Jam",
+        "collaborators": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "song_name": "Crowd Control",
+        "collaborators": [
+          "4",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Brass & Lights",
+        "collaborators": [
+          "9",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Switchblade Swing",
+        "collaborators": [
+          "13"
+        ]
+      },
+      {
+        "song_name": "Stage Flame",
+        "collaborators": [
+          "14",
+          "15"
+        ]
+      },
+      {
+        "song_name": "Thunder Confetti",
+        "collaborators": [
+          "16",
+          "18"
+        ]
+      },
+      {
+        "song_name": "Bassline Blossom",
+        "collaborators": [
+          "19"
+        ]
+      },
+      {
+        "song_name": "Encore Spark",
+        "collaborators": [
+          "20"
+        ]
+      }
+    ]
+  },
+  "13": {
+    "id": "13",
+    "name": "FRANTS",
+    "edges": [
+      {
+        "song_name": "Fractal Pop",
+        "collaborators": [
+          "3",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Pixel Romance",
+        "collaborators": [
+          "1",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Hologram Hug",
+        "collaborators": [
+          "14",
+          "15"
+        ]
+      },
+      {
+        "song_name": "Night Bloom",
+        "collaborators": [
+          "16"
+        ]
+      }
+    ]
+  },
+  "14": {
+    "id": "14",
+    "name": "Moonshine",
+    "edges": [
+      {
+        "song_name": "Moonlit Mirage",
+        "collaborators": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "song_name": "Silver Siren",
+        "collaborators": [
+          "4",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Champagne Chorus",
+        "collaborators": [
+          "9",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Raspberry Rush",
+        "collaborators": [
+          "15",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Stadium Spark",
+        "collaborators": [
+          "18",
+          "19"
+        ]
+      },
+      {
+        "song_name": "Glitter Grenade",
+        "collaborators": [
+          "20"
+        ]
+      }
+    ]
+  },
+  "15": {
+    "id": "15",
+    "name": "David Amber",
+    "edges": [
+      {
+        "song_name": "Amber Alert",
+        "collaborators": [
+          "1",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Rose Quartz",
+        "collaborators": [
+          "2",
+          "11"
+        ]
+      }
+    ]
+  },
+  "16": {
+    "id": "16",
+    "name": "Park Jin-young",
+    "edges": [
+      {
+        "song_name": "Classic Charm",
+        "collaborators": [
+          "14"
+        ]
+      },
+      {
+        "song_name": "Vocal Spark",
+        "collaborators": [
+          "11",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Dance Line",
+        "collaborators": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "song_name": "Harmony High",
+        "collaborators": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "song_name": "Idol Avenue",
+        "collaborators": [
+          "9",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Final Chorus",
+        "collaborators": [
+          "18",
+          "19",
+          "20"
+        ]
+      }
+    ]
+  },
+  "17": {
+    "id": "17",
+    "name": "EL CAPITXN",
+    "edges": [
+      {
+        "song_name": "Captain's Log",
+        "collaborators": [
+          "1",
+          "3",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Orbit Pop",
+        "collaborators": [
+          "12"
+        ]
+      },
+      {
+        "song_name": "Speed of Love",
+        "collaborators": [
+          "5",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Spark Engine",
+        "collaborators": [
+          "10",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Neon Encore",
+        "collaborators": [
+          "14",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Afterparty Atlas",
+        "collaborators": [
+          "18"
+        ]
+      },
+      {
+        "song_name": "Strobe Romance",
+        "collaborators": [
+          "19",
+          "20"
+        ]
+      }
+    ]
+  },
+  "18": {
+    "id": "18",
+    "name": "JINBO",
+    "edges": [
+      {
+        "song_name": "Poetry in Bass",
+        "collaborators": [
+          "1",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Velvet Verse",
+        "collaborators": [
+          "14",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Sunset Synth",
+        "collaborators": [
+          "9",
+          "11"
+        ]
+      }
+    ]
+  },
+  "19": {
+    "id": "19",
+    "name": "Code Kunst",
+    "edges": [
+      {
+        "song_name": "Code: Midnight",
+        "collaborators": [
+          "5",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Analog Dreams",
+        "collaborators": [
+          "9",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Warm Circuit",
+        "collaborators": [
+          "14",
+          "18"
+        ]
+      },
+      {
+        "song_name": "Soft Static",
+        "collaborators": [
+          "16"
+        ]
+      }
+    ]
+  },
+  "20": {
+    "id": "20",
+    "name": "Bang Si-hyuk",
+    "edges": [
+      {
+        "song_name": "Stadium Lights",
+        "collaborators": [
+          "1",
+          "3",
+          "17"
+        ]
+      },
+      {
+        "song_name": "Anthem Driver",
+        "collaborators": [
+          "12",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Runway Chorus",
+        "collaborators": [
+          "2",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Golden Hook",
+        "collaborators": [
+          "9",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Finale Fireworks",
+        "collaborators": [
+          "18",
+          "19"
+        ]
+      }
+    ]
+  },
+  "21": {
+    "id": "21",
+    "name": "Slow Rabbit",
+    "edges": [
+      {
+        "song_name": "Soft Focus",
+        "collaborators": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "song_name": "Velour Night",
+        "collaborators": [
+          "9"
+        ]
+      },
+      {
+        "song_name": "Breathing Room",
+        "collaborators": [
+          "17",
+          "20"
+        ]
+      }
+    ]
+  },
+  "22": {
+    "id": "22",
+    "name": "Supreme Boi",
+    "edges": [
+      {
+        "song_name": "Upper Deck",
+        "collaborators": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "song_name": "Crowd Surf",
+        "collaborators": [
+          "17"
+        ]
+      },
+      {
+        "song_name": "Pressure System",
+        "collaborators": [
+          "6",
+          "19"
+        ]
+      },
+      {
+        "song_name": "Gold Trim",
+        "collaborators": [
+          "20"
+        ]
+      },
+      {
+        "song_name": "Encore Flex",
+        "collaborators": [
+          "12",
+          "14"
+        ]
+      }
+    ]
+  },
+  "23": {
+    "id": "23",
+    "name": "Hitchhiker",
+    "edges": [
+      {
+        "song_name": "Glitch Parade",
+        "collaborators": [
+          "3",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Noise Candy",
+        "collaborators": [
+          "9",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Synthetic Fever",
+        "collaborators": [
+          "6",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Alien Groove",
+        "collaborators": [
+          "16",
+          "20"
+        ]
+      },
+      {
+        "song_name": "Digital Mascot",
+        "collaborators": [
+          "11"
+        ]
+      },
+      {
+        "song_name": "Bass Mutation",
+        "collaborators": [
+          "18"
+        ]
+      },
+      {
+        "song_name": "Electric Wink",
+        "collaborators": [
+          "25"
+        ]
+      }
+    ]
+  },
+  "24": {
+    "id": "24",
+    "name": "Score",
+    "edges": [
+      {
+        "song_name": "Cinematic Bloom",
+        "collaborators": [
+          "10",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Wide Angle Love",
+        "collaborators": [
+          "14",
+          "16"
+        ]
+      }
+    ]
+  },
+  "25": {
+    "id": "25",
+    "name": "Megatone",
+    "edges": [
+      {
+        "song_name": "Bassquake",
+        "collaborators": [
+          "6",
+          "9"
+        ]
+      },
+      {
+        "song_name": "Drop Authority",
+        "collaborators": [
+          "17",
+          "20"
+        ]
+      },
+      {
+        "song_name": "Subwoofer City",
+        "collaborators": [
+          "22"
+        ]
+      },
+      {
+        "song_name": "Crowd Control II",
+        "collaborators": [
+          "12",
+          "19"
+        ]
+      }
+    ]
+  },
+  "26": {
+    "id": "26",
+    "name": "Lee Woo-min (Collapsedone)",
+    "edges": [
+      {
+        "song_name": "Minimal Bloom",
+        "collaborators": [
+          "3",
+          "10"
+        ]
+      },
+      {
+        "song_name": "Late Night Drive",
+        "collaborators": [
+          "9",
+          "11"
+        ]
+      },
+      {
+        "song_name": "Soft Algorithm",
+        "collaborators": [
+          "21"
+        ]
+      },
+      {
+        "song_name": "Muted Heartbeat",
+        "collaborators": [
+          "24"
+        ]
+      },
+      {
+        "song_name": "Afterimage",
+        "collaborators": [
+          "14",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Falling Chorus",
+        "collaborators": [
+          "20"
+        ]
+      }
+    ]
+  },
+  "27": {
+    "id": "27",
+    "name": "TAZ Taylor",
+    "edges": [
+      {
+        "song_name": "Arena Voltage",
+        "collaborators": [
+          "12",
+          "20"
+        ]
+      },
+      {
+        "song_name": "Power Chant",
+        "collaborators": [
+          "14"
+        ]
+      },
+      {
+        "song_name": "Echo Stack",
+        "collaborators": [
+          "9",
+          "16"
+        ]
+      }
+    ]
+  },
+  "28": {
+    "id": "28",
+    "name": "Andreas Öberg",
+    "edges": [
+      {
+        "song_name": "Polished Chrome",
+        "collaborators": [
+          "10",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Euro Popline",
+        "collaborators": [
+          "12",
+          "24"
+        ]
+      },
+      {
+        "song_name": "Mirror Melody",
+        "collaborators": [
+          "3"
+        ]
+      },
+      {
+        "song_name": "Perfect Hook",
+        "collaborators": [
+          "16",
+          "20"
+        ]
+      }
+    ]
+  },
+  "29": {
+    "id": "29",
+    "name": "Adrian McKinnon",
+    "edges": [
+      {
+        "song_name": "Sticky Chorus",
+        "collaborators": [
+          "28"
+        ]
+      },
+      {
+        "song_name": "Late Summer Text",
+        "collaborators": [
+          "10",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Polaroid Heart",
+        "collaborators": [
+          "24"
+        ]
+      }
+    ]
+  },
+  "30": {
+    "id": "30",
+    "name": "Ryan Jhun",
+    "edges": [
+      {
+        "song_name": "Hit Formula",
+        "collaborators": [
+          "10",
+          "12"
+        ]
+      },
+      {
+        "song_name": "Idol Blueprint",
+        "collaborators": [
+          "14",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Chorus Lab",
+        "collaborators": [
+          "20"
+        ]
+      },
+      {
+        "song_name": "Flashpoint",
+        "collaborators": [
+          "27"
+        ]
+      },
+      {
+        "song_name": "Stage Ready",
+        "collaborators": [
+          "28"
+        ]
+      },
+      {
+        "song_name": "Final Hook",
+        "collaborators": [
+          "29"
+        ]
+      },
+      {
+        "song_name": "Encore System",
+        "collaborators": [
+          "22"
+        ]
+      },
+      {
+        "song_name": "Topline Machine",
+        "collaborators": [
+          "25"
+        ]
+      }
+    ]
+  },
+  "31": {
+    "id": "31",
+    "name": "Monotree",
+    "edges": [
+      {
+        "song_name": "Orchestra Pop",
+        "collaborators": [
+          "10",
+          "24"
+        ]
+      },
+      {
+        "song_name": "Vintage Idol",
+        "collaborators": [
+          "28"
+        ]
+      },
+      {
+        "song_name": "Melody Archive",
+        "collaborators": [
+          "29"
+        ]
+      }
+    ]
+  },
+  "32": {
+    "id": "32",
+    "name": "Alawn",
+    "edges": [
+      {
+        "song_name": "Clean Slate",
+        "collaborators": [
+          "26"
+        ]
+      }
+    ]
+  },
+  "33": {
+    "id": "33",
+    "name": "ENAN",
+    "edges": [
+      {
+        "song_name": "Rhythm Bloom",
+        "collaborators": [
+          "21",
+          "26"
+        ]
+      },
+      {
+        "song_name": "Urban Petals",
+        "collaborators": [
+          "9"
+        ]
+      },
+      {
+        "song_name": "Late Bus Home",
+        "collaborators": [
+          "19"
+        ]
+      }
+    ]
+  },
+  "34": {
+    "id": "34",
+    "name": "Cazzi Opeia",
+    "edges": [
+      {
+        "song_name": "Pop Poetry",
+        "collaborators": [
+          "29",
+          "30"
+        ]
+      },
+      {
+        "song_name": "High Note Diary",
+        "collaborators": [
+          "14"
+        ]
+      },
+      {
+        "song_name": "Hook Anatomy",
+        "collaborators": [
+          "10",
+          "28"
+        ]
+      }
+    ]
+  },
+  "35": {
+    "id": "35",
+    "name": "Simon Petren",
+    "edges": [
+      {
+        "song_name": "Nordic Pulse",
+        "collaborators": [
+          "28",
+          "34"
+        ]
+      },
+      {
+        "song_name": "Cold Neon",
+        "collaborators": [
+          "10"
+        ]
+      }
+    ]
+  },
+  "36": {
+    "id": "36",
+    "name": "Ludwig Lindell",
+    "edges": [
+      {
+        "song_name": "Euro Idol",
+        "collaborators": [
+          "28",
+          "29"
+        ]
+      },
+      {
+        "song_name": "Refined Spark",
+        "collaborators": [
+          "30"
+        ]
+      },
+      {
+        "song_name": "Gloss Finish",
+        "collaborators": [
+          "10",
+          "14"
+        ]
+      }
+    ]
+  },
+  "37": {
+    "id": "37",
+    "name": "Peter Wallevik",
+    "edges": [
+      {
+        "song_name": "Bright Engine",
+        "collaborators": [
+          "36"
+        ]
+      },
+      {
+        "song_name": "Clean Cut Love",
+        "collaborators": [
+          "28",
+          "30"
+        ]
+      }
+    ]
+  },
+  "38": {
+    "id": "38",
+    "name": "Daniel Caesar (Producer)",
+    "edges": [
+      {
+        "song_name": "Warm Tape",
+        "collaborators": [
+          "21",
+          "33"
+        ]
+      },
+      {
+        "song_name": "Late Vinyl",
+        "collaborators": [
+          "19"
+        ]
+      }
+    ]
+  },
+  "39": {
+    "id": "39",
+    "name": "Woogie",
+    "edges": [
+      {
+        "song_name": "Bounce Logic",
+        "collaborators": [
+          "5",
+          "6"
+        ]
+      },
+      {
+        "song_name": "Pocket Groove",
+        "collaborators": [
+          "19",
+          "22"
+        ]
+      },
+      {
+        "song_name": "Street Spark",
+        "collaborators": [
+          "17"
+        ]
+      }
+    ]
+  },
+  "40": {
+    "id": "40",
+    "name": "Yoo Young-jin",
+    "edges": [
+      {
+        "song_name": "SM Classic",
+        "collaborators": [
+          "10",
+          "16"
+        ]
+      },
+      {
+        "song_name": "Vocal Dynasty",
+        "collaborators": [
+          "12",
+          "14"
+        ]
+      },
+      {
+        "song_name": "Harmony Legacy",
+        "collaborators": [
+          "24"
+        ]
+      },
+      {
+        "song_name": "Final Adlib",
+        "collaborators": [
+          "20"
+        ]
+      }
+    ]
+  },
+  "41": {
+    "id": "41",
+    "name": "Park Woo-sang",
+    "edges": [
+      {
+        "song_name": "Bright Timing",
+        "collaborators": [
+          "30"
+        ]
+      }
+    ]
+  },
+  "42": {
+    "id": "42",
+    "name": "MinGtion",
+    "edges": [
+      {
+        "song_name": "Precise Cut",
+        "collaborators": [
+          "10",
+          "26"
+        ]
+      },
+      {
+        "song_name": "Synth Balance",
+        "collaborators": [
+          "12"
+        ]
+      },
+      {
+        "song_name": "Clean Voltage",
+        "collaborators": [
+          "14",
+          "28"
+        ]
+      }
+    ]
+  },
+  "43": {
+    "id": "43",
+    "name": "Park Jin-suk",
+    "edges": [
+      {
+        "song_name": "Analog Bloom",
+        "collaborators": [
+          "33"
+        ]
+      },
+      {
+        "song_name": "Tape Saturation",
+        "collaborators": [
+          "19"
+        ]
+      }
+    ]
+  },
+  "44": {
+    "id": "44",
+    "name": "Jung Jin-woo",
+    "edges": [
+      {
+        "song_name": "Late Confession",
+        "collaborators": [
+          "38"
+        ]
+      }
+    ]
+  },
+  "45": {
+    "id": "45",
+    "name": "Basecamp",
+    "edges": [
+      {
+        "song_name": "Foundation Beat",
+        "collaborators": [
+          "39"
+        ]
+      },
+      {
+        "song_name": "Ground Level",
+        "collaborators": [
+          "22",
+          "25"
+        ]
+      }
+    ]
+  },
+  "46": {
+    "id": "46",
+    "name": "IOAH",
+    "edges": [
+      {
+        "song_name": "Velvet Static",
+        "collaborators": [
+          "33",
+          "38"
+        ]
+      },
+      {
+        "song_name": "Muted Neon",
+        "collaborators": [
+          "21"
+        ]
+      }
+    ]
+  },
+  "47": {
+    "id": "47",
+    "name": "Yung Skrrt",
+    "edges": [
+      {
+        "song_name": "Trap Idol",
+        "collaborators": [
+          "22",
+          "39"
+        ]
+      },
+      {
+        "song_name": "808 Heart",
+        "collaborators": [
+          "5"
+        ]
+      }
+    ]
+  },
+  "48": {
+    "id": "48",
+    "name": "SlyBerry",
+    "edges": [
+      {
+        "song_name": "Dreamlike",
+        "collaborators": [
+          "21",
+          "26"
+        ]
+      }
+    ]
+  },
+  "49": {
+    "id": "49",
+    "name": "Heize (Producer)",
+    "edges": [
+      {
+        "song_name": "Soft Confession",
+        "collaborators": [
+          "18",
+          "38"
+        ]
+      },
+      {
+        "song_name": "Rain Letter",
+        "collaborators": [
+          "19"
+        ]
+      }
+    ]
+  },
+  "50": {
+    "id": "50",
+    "name": "The Black Skirts (Producer)",
+    "edges": [
+      {
+        "song_name": "Indie Bloom",
+        "collaborators": [
+          "49"
+        ]
+      },
+      {
+        "song_name": "Late Night Guitar",
+        "collaborators": [
+          "38"
+        ]
+      }
+    ]
+  }
+}
