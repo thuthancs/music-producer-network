@@ -29,7 +29,9 @@ if (!details) {
     details.style.fontSize = "12px";
     details.style.lineHeight = "1.35";
     details.style.display = "none";
-    details.style.color = "#ffff"
+    details.style.color = "#ffff";
+    details.style.pointerEvents = "auto";
+    details.style.zIndex = "1000";
     document.body.appendChild(details);
 }
 
@@ -196,8 +198,59 @@ fetch("./output_50.json")
             node
                 .transition()
                 .duration(300)
-                .style("opacity", (n) => neigh.has(n.id) ? 1 : 0.1)
-                .classed("faded", (n) => !neigh.has(n.id));
+                .style("opacity", (n) => neigh.has(n.id) ? 1 : 0.1);
+
+            // Set faded class separately (can't chain classed after transition)
+            node.classed("faded", (n) => !neigh.has(n.id));
+
+            // Show labels for nodes in the sub-network
+            // Update ALL label positions from actual node positions first
+            nodeLabels
+                .each((d) => {
+                    // Get the actual rendered position of the node for ALL labels
+                    const nodeElement = node.filter((n) => n.id === d.id);
+                    if (nodeElement.size() > 0) {
+                        const cx = parseFloat(nodeElement.attr("cx"));
+                        const cy = parseFloat(nodeElement.attr("cy"));
+                        if (!isNaN(cx) && !isNaN(cy)) {
+                            d.x = cx;
+                            d.y = cy;
+                        } else {
+                            // Fallback to node data position
+                            const nodeData = nodes.find(n => n.id === d.id);
+                            if (nodeData) {
+                                d.x = nodeData.baseX || nodeData.x || 0;
+                                d.y = nodeData.baseY || nodeData.y || 0;
+                            }
+                        }
+                    } else {
+                        // Fallback to node data position
+                        const nodeData = nodes.find(n => n.id === d.id);
+                        if (nodeData) {
+                            d.x = nodeData.baseX || nodeData.x || 0;
+                            d.y = nodeData.baseY || nodeData.y || 0;
+                        }
+                    }
+                })
+                // Set positions and opacity immediately, then transition for smoothness
+                .attr("x", (d) => {
+                    const x = d.x || 0;
+                    return isNaN(x) ? 0 : x;
+                })
+                .attr("y", (d) => {
+                    const y = (d.y || 0) + radius(d.totalCollaborations) + 15;
+                    return isNaN(y) ? 15 : y;
+                })
+                .style("opacity", (d) => {
+                    const shouldShow = neigh.has(d.id);
+                    return shouldShow ? 1 : 0;
+                })
+                .transition()
+                .duration(300)
+                .style("opacity", (d) => {
+                    const shouldShow = neigh.has(d.id);
+                    return shouldShow ? 1 : 0;
+                });
         }
 
         function showFullNetwork() {
@@ -214,9 +267,17 @@ fetch("./output_50.json")
             node
                 .transition()
                 .duration(300)
-                .style("opacity", 1)
-                .classed("faded", false)
+                .style("opacity", 1);
+
+            // Set classes separately (can't chain classed after transition)
+            node.classed("faded", false)
                 .classed("node-selected", false);
+
+            // Hide all labels
+            nodeLabels
+                .transition()
+                .duration(300)
+                .style("opacity", 0);
         }
 
         function showDetailsFor(producerId) {
@@ -252,6 +313,9 @@ fetch("./output_50.json")
             background: rgba(255,255,255,0.06);
             font-weight: 700;
             line-height: 1;
+            pointer-events: auto;
+            z-index: 1001;
+            position: relative;
           ">×</button>
         </div>
         <hr style="border:none;border-top:1px solid rgba(255,255,255,0.10);margin:10px 0;">
@@ -265,9 +329,22 @@ fetch("./output_50.json")
 
             const btn = document.getElementById("detailsClose");
             if (btn) {
-                btn.addEventListener("click", () => {
-                    showFullNetwork();
+                // Remove any existing listeners first
+                const newBtn = btn.cloneNode(true);
+                btn.parentNode.replaceChild(newBtn, btn);
+
+                newBtn.addEventListener("click", (event) => {
+                    event.stopPropagation(); // Prevent event from bubbling to SVG
+                    event.preventDefault(); // Prevent any default behavior
+                    console.log("Close button clicked"); // Debug
+
+                    // Close the modal first
+                    selectedId = null;
                     details.style.display = "none";
+                    node.classed("node-selected", false);
+
+                    // Then restore the network
+                    showFullNetwork();
                 });
             }
         }
@@ -282,16 +359,45 @@ fetch("./output_50.json")
             .join("circle")
             .attr("class", "node")
             .attr("r", (d) => radius(d.totalCollaborations))
-            .attr("fill", "#6BAED6");
+            .attr("fill", "#6BAED6")
+            .attr("cx", (d) => {
+                // Ensure initial position is valid
+                const x = d.x;
+                return (x !== undefined && !isNaN(x) && isFinite(x)) ? x : w() / 2;
+            })
+            .attr("cy", (d) => {
+                // Ensure initial position is valid
+                const y = d.y;
+                return (y !== undefined && !isNaN(y) && isFinite(y)) ? y : h() / 2;
+            });
 
-        // Add floating animation to nodes
-        // Store original positions and animation offsets
+        // -----------------------------
+        // Draw node labels (initially hidden)
+        // -----------------------------
+        const nodeLabels = g
+            .append("g")
+            .attr("class", "node-labels-group")
+            .selectAll("text")
+            .data(nodes)
+            .join("text")
+            .attr("class", "node-label")
+            .text((d) => d.name || `Producer ${d.id}`)
+            .attr("x", (d) => d.x || 0)
+            .attr("y", (d) => (d.y || 0) + radius(d.totalCollaborations) + 15)
+            .style("font-size", "12px")
+            .style("fill", "#000000")
+            .style("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .style("opacity", 0)
+            .style("font-weight", "500")
+            .style("dominant-baseline", "hanging");
+
+        // Initialize floating animation properties (positions will be set after layout)
         nodes.forEach((n, i) => {
-            n.baseX = n.x;
-            n.baseY = n.y;
             n.floatPhase = (i * 2 * Math.PI) / nodes.length; // Stagger phases for natural look
             n.floatAmplitude = 2 + Math.random() * 2; // Random amplitude between 2-4 pixels
             n.floatSpeed = 0.5 + Math.random() * 0.5; // Random speed between 0.5-1.0
+            // baseX/baseY will be set after initial layout
         });
 
         let animationTime = 0;
@@ -312,6 +418,11 @@ fetch("./output_50.json")
                     return;
                 }
 
+                // Skip if node doesn't have valid position
+                if (!n.baseX || !n.baseY || isNaN(n.baseX) || isNaN(n.baseY)) {
+                    return;
+                }
+
                 // Gentle floating motion using sine waves
                 const offsetX = Math.sin(animationTime * n.floatSpeed + n.floatPhase) * n.floatAmplitude;
                 const offsetY = Math.cos(animationTime * n.floatSpeed * 0.7 + n.floatPhase) * n.floatAmplitude * 0.8;
@@ -319,9 +430,19 @@ fetch("./output_50.json")
                 // Update node position with floating offset
                 const nodeElement = node.filter((d) => d.id === n.id);
                 if (nodeElement.size() > 0) {
+                    const currentX = n.baseX + offsetX;
+                    const currentY = n.baseY + offsetY;
                     nodeElement
-                        .attr("cx", (d) => (d.baseX || d.x) + offsetX)
-                        .attr("cy", (d) => (d.baseY || d.y) + offsetY);
+                        .attr("cx", currentX)
+                        .attr("cy", currentY);
+
+                    // Update label position to follow the floating node
+                    const labelElement = nodeLabels.filter((d) => d.id === n.id);
+                    if (labelElement.size() > 0) {
+                        labelElement
+                            .attr("x", currentX)
+                            .attr("y", currentY + radius(n.totalCollaborations) + 15);
+                    }
                 }
             });
 
@@ -337,10 +458,17 @@ fetch("./output_50.json")
                 // Pause floating animation for this node
                 hoveredNodeId = d.id;
 
-                // Reset node to base position
+                // Reset node to base position (ensure valid values)
+                const baseX = (d.baseX !== undefined && !isNaN(d.baseX)) ? d.baseX : (d.x !== undefined && !isNaN(d.x) ? d.x : centerX);
+                const baseY = (d.baseY !== undefined && !isNaN(d.baseY)) ? d.baseY : (d.y !== undefined && !isNaN(d.y) ? d.y : centerY);
                 node.filter((n) => n.id === d.id)
-                    .attr("cx", (n) => n.baseX || n.x)
-                    .attr("cy", (n) => n.baseY || n.y);
+                    .attr("cx", baseX)
+                    .attr("cy", baseY);
+
+                // Update label position
+                nodeLabels.filter((n) => n.id === d.id)
+                    .attr("x", baseX)
+                    .attr("y", baseY + radius(d.totalCollaborations) + 15);
 
                 // Tooltip (show name only on hover)
                 tooltip
@@ -421,10 +549,10 @@ fetch("./output_50.json")
 
         // Clicking the empty canvas restores full network view
         svg.on("click", (event) => {
-            // Only trigger if clicking directly on the SVG background, not on nodes/links
+            // Only trigger if clicking directly on the SVG background, not on nodes/links/buttons
             const target = event.target;
-            // If clicking on a node (circle) or link (line), don't restore - those have their own handlers
-            if (target.tagName !== 'circle' && target.tagName !== 'line') {
+            // If clicking on a node (circle), link (line), or button, don't restore - those have their own handlers
+            if (target.tagName !== 'circle' && target.tagName !== 'line' && target.tagName !== 'button') {
                 showFullNetwork();
                 details.style.display = "none";
             }
@@ -451,6 +579,9 @@ fetch("./output_50.json")
                 n.x = centerX + r * Math.cos(angle);
                 n.y = centerY + r * Math.sin(angle);
             }
+            // Initialize base positions after setting x/y
+            n.baseX = n.x;
+            n.baseY = n.y;
         });
 
         // -----------------------------
@@ -507,9 +638,59 @@ fetch("./output_50.json")
             // Update base positions for floating animation
             // Note: Node positions are handled by the floating animation, not directly here
             nodes.forEach((n) => {
-                n.baseX = n.x;
-                n.baseY = n.y;
+                // Only update if x/y are valid numbers
+                if (n.x !== undefined && !isNaN(n.x) && n.y !== undefined && !isNaN(n.y)) {
+                    n.baseX = n.x;
+                    n.baseY = n.y;
+                }
             });
+
+            // Update label positions to follow nodes (for all labels, not just visible ones)
+            nodeLabels
+                .each((d) => {
+                    // Get current node position from the actual rendered element
+                    const nodeElement = node.filter((n) => n.id === d.id);
+                    if (nodeElement.size() > 0) {
+                        const cx = parseFloat(nodeElement.attr("cx"));
+                        const cy = parseFloat(nodeElement.attr("cy"));
+                        if (!isNaN(cx) && !isNaN(cy) && isFinite(cx) && isFinite(cy)) {
+                            d.x = cx;
+                            d.y = cy;
+                        } else {
+                            // Fallback to node data
+                            const nodeData = nodes.find(n => n.id === d.id);
+                            if (nodeData) {
+                                const fallbackX = nodeData.baseX || nodeData.x;
+                                const fallbackY = nodeData.baseY || nodeData.y;
+                                d.x = (fallbackX !== undefined && !isNaN(fallbackX)) ? fallbackX : centerX;
+                                d.y = (fallbackY !== undefined && !isNaN(fallbackY)) ? fallbackY : centerY;
+                            } else {
+                                d.x = centerX;
+                                d.y = centerY;
+                            }
+                        }
+                    } else {
+                        // Fallback to node data
+                        const nodeData = nodes.find(n => n.id === d.id);
+                        if (nodeData) {
+                            const fallbackX = nodeData.baseX || nodeData.x;
+                            const fallbackY = nodeData.baseY || nodeData.y;
+                            d.x = (fallbackX !== undefined && !isNaN(fallbackX)) ? fallbackX : centerX;
+                            d.y = (fallbackY !== undefined && !isNaN(fallbackY)) ? fallbackY : centerY;
+                        } else {
+                            d.x = centerX;
+                            d.y = centerY;
+                        }
+                    }
+                })
+                .attr("x", (d) => {
+                    const x = (d.x !== undefined && !isNaN(d.x) && isFinite(d.x)) ? d.x : centerX;
+                    return x;
+                })
+                .attr("y", (d) => {
+                    const y = ((d.y !== undefined && !isNaN(d.y) && isFinite(d.y)) ? d.y : centerY) + radius(d.totalCollaborations) + 15;
+                    return y;
+                });
         });
 
         // Resize handling
